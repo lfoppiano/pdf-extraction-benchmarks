@@ -131,3 +131,4 @@ dmypy.json
 *.pdf
 pdfs/
 pdf_cache/
+.idea
