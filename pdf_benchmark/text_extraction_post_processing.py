@@ -2,9 +2,9 @@ PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE = "\ufffe"
 
 def postprocess(extracted_texts: list[str], page_labels: list[str]) -> str:
     """Pass a list of all extracted texts from all pages."""
-    # extracted_texts = [replace_ligatures(t) for t in extracted_texts]
-    # extracted_texts = [remove_hyphens(t) for t in extracted_texts]
-    # extracted_texts = remove_footer(extracted_texts, page_labels)
+    extracted_texts = [replace_ligatures(t) for t in extracted_texts]
+    extracted_texts = [remove_hyphens(t) for t in extracted_texts]
+    extracted_texts = remove_footer(extracted_texts, page_labels)
     return "\n".join(extracted_texts)
 
 
