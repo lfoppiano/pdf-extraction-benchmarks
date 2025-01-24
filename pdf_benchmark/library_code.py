@@ -43,9 +43,6 @@ def pdfium_get_text(data: bytes) -> str:
     pdf = pdfium.PdfDocument(data)
 
     for i in range(len(pdf)):
-        if not (label := pdf.get_page_label(i)):
-            label = str(i + 1)
-        page_labels.append(label)
         page = pdf.get_page(i)
         textpage = page.get_textpage()
         texts.append(pdfium_new_line_after_hyphens(textpage.get_text_range()))
@@ -207,6 +204,31 @@ def pdftotext_get_text(data: bytes) -> str:
     output = res.stdout.decode("utf-8")
     os.close(new_file)
     os.remove(filename)
+    return output
+
+
+def pdfalto_get_text(data: bytes) -> str:
+    new_file, filename = tempfile.mkstemp()
+    with open(filename, "wb") as fp:
+        fp.write(data)
+    pdf_to_text_path = "/Users/lfoppiano/development/projects/grobid/grobid-home/pdfalto/mac_arm-64/pdfalto"
+    if not os.path.exists(pdf_to_text_path):
+        pdf_to_text_path = 'pdfalto'
+    args = [pdf_to_text_path, "-noImageInline", "-fullFontName", "-noImage", "-readingOrder", filename, "-"]
+
+    res = subprocess.run(args, capture_output=True)
+    output_xml = res.stdout.decode("utf-8")
+    new_file_xml, filename_xml = tempfile.mkstemp()
+    with open(filename_xml, "w") as fp:
+        fp.write(output_xml)
+    xml_to_txt_path = "/usr/bin/xsltproc"
+    args = [xml_to_txt_path, "resources/pdfalto/alto2txt.xsl", filename_xml]
+    res = subprocess.run(args, capture_output=True)
+    output = res.stdout.decode("utf-8")
+    os.close(new_file)
+    os.close(new_file_xml)
+    os.remove(filename)
+    os.remove(filename_xml)
     return output
 
 

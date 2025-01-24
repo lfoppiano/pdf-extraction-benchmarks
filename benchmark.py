@@ -35,7 +35,7 @@ from pdf_benchmark.library_code import (
     pymupdf_watermarking,
     pypdf_get_text,
     pypdf_image_extraction,
-    pypdf_watermarking, tika_get_text, pdfium_image_extraction,
+    pypdf_watermarking, tika_get_text, pdfium_image_extraction, pdfalto_get_text,
 )
 from pdf_benchmark.output import write_benchmark_report
 from pdf_benchmark.score import get_text_extraction_score
@@ -51,7 +51,7 @@ def main(
     if cache_path.exists():
         try:
             with open(cache_path) as f:
-                cache = Cache.model_validate(json.load(f))
+                cache = Cache.validate(json.load(f))
         except JSONDecodeError:
             cache = Cache()
     else:
@@ -74,7 +74,11 @@ def main(
         if lib.text_extraction_function:
             print(f"{name} now parses {doc.name}...")
             t0 = time.time()
-            text = lib.text_extraction_function(data)
+            try:
+                text = lib.text_extraction_function(data)
+            except:
+                print(f"Error parsing {doc.name} with {lib.name}")
+                text = ""
             t1 = time.time()
             write_single_result("read", name, doc.name, text, "txt")
             cache.benchmark_times[lib.pathname][doc.name]["read"] = t1 - t0
@@ -255,8 +259,8 @@ if __name__ == "__main__":
             "pdfalto",
             "pdfalto",
             "https://github.com/kermitt2/pdfalto",
-            text_extraction_function=None,
-            version=0.5,
+            text_extraction_function=pdfalto_get_text,
+            version="0.5",
             watermarking_function=None,
             license="GPLv3",
             last_release_date="-",
