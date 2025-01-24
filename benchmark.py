@@ -78,8 +78,8 @@ def main(
             t0 = time.time()
             try:
                 text = lib.text_extraction_function(data)
-            except:
-                print(f"Error parsing {doc.name} with {lib.name}")
+            except Exception as e:
+                print(f"Error parsing {doc.name} with {lib.name}: {e}")
                 text = ""
             t1 = time.time()
             write_single_result("read", name, doc.name, text, "txt")
