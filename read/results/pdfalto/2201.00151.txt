@@ -110,23 +110,23 @@ Property
 Value
 Subhalo ID
 16960
-Number of stellar particles (N⋆)
+Number of stellar particles (N ⋆)
 70446
-Number of dark matter particles (NDM)
+Number of dark matter particles (N DM )
 78448
-Stellar mass (M⋆)
-5.74 × 1010 M⊙
-Dark matter mass (MDM)
-4.91 × 1011 M⊙
+Stellar mass (M ⋆ )
+5.74 × 1010 M ⊙
+Dark matter mass (M DM )
+4.91 × 10 11 M ⊙
 Mean mass of stellar particles
-815808 M⊙
+815808 M ⊙
 Stellar half-mass radius
 9.99 kpc
-Stellar half-number radius (r1/2)
+Stellar half-number radius (r 1/2 )
 9.6 kpc
-Axis ratio c/a within r1/2
+Axis ratio c/a within r 1/2
 0.907
-Axis ratio b/a within r1/2
+Axis ratio b/a within r 1/2
 0.949
 Triaxiality
 0.56
@@ -818,7 +818,7 @@ K. Kowalczyk & E. L. Łokas: Multiple stellar populations in Schwarzschild model
 
 10-1
 
-100
+10 0
 
 0
 10
@@ -866,9 +866,9 @@ minor
 40
 
 m
-2(R)[103
+2 (R)[10 3
 
-(km s-1
+(km s -1
 
 )2
 
@@ -2010,7 +2010,7 @@ c
 
 3
 
-6
+
 
 9
 

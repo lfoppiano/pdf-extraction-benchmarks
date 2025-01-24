@@ -249,7 +249,7 @@ This artistic style imitation can be seen itself as creative work.
 An example is given by Figure 4. The code which created this
 example is available under [Joh16].
 
-Something similar was done by [SPB+14], where the style of
+Something similar was done by [SPB + 14], where the style of
 a portrait photograph was transferred to another photograph.
 A demo can be seen on [Shi14].
 
@@ -713,14 +713,14 @@ C. Linux Code, 1
 
 * Increment the size file of the new incorrect UI_FILTER group information
 * of the size generatively.
-*/
+* /
 static int indicate_policy(void)
 {
 int error;
 if (fd == MARN_EPT) {
-/*
+/ *
 * The kernel blank will coeld it to userspace.
-*/
+* /
 if (ss->segment < mem_total)
 unblock_graph_and_set_blocked();
 else

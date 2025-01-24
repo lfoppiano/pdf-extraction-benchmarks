@@ -269,7 +269,7 @@ likely negligible compared with those associated with age.
 3. Results
 
 Panel (a) of Fig. 1 shows a comparison between model predic-
-tions and observations in the PFM–log(τ/yr) plane. The former
+tions and observations in the PFM –log(τ/yr) plane. The former
 are displayed by a density map showing the expected number
 NFM of LPVs pulsating in the FM in each period-age bin, nor-
 malized to maximum. Model predictions are in good agreement
@@ -394,13 +394,13 @@ can have at a given age. Yet, the DFMP part of the AGB is long
 enough for signiﬁcant variations in radius to occur, which result
 in the dispersion of the PA relation seen in Fig. 1.
 
-At a given initial metallicity Zi, the shape of the period dis-
+At a given initial metallicity Z i , the shape of the period dis-
 tribution primarily results from the fact that, throughout the TP-
 AGB (the stage during which the FM is normally excited), the
 envelope expansion accelerates, while the period becomes pro-
 gressively less sensitive to changes in radius (see Appendix C).
 In particular, the slope of the period-radius relation decreases
-sharply at Pb = P(Rb). The FM period distribution is roughly
+sharply at Pb = P(R b). The FM period distribution is roughly
 symmetric around that value, but at its short-period side, the FM
 is not dominant. Therefore, when only FM-dominated LPVs are
 considered, as is done here, the observed period distribution ap-
@@ -717,14 +717,14 @@ Article number, page 6 of 9
 
 Trabucchi et al.: The period-age relation of LPVs
 
-Fig. A.1. Absolute-Ks Gaia-2MASS diagram for the stars with or with-
+Fig. A.1. Absolute-K s Gaia-2MASS diagram for the stars with or with-
 out a spectral type (left and right panels, respectively) in the selected
 sample. Symbol colors and shapes indicate the spectral type and host
 cluster described in the legend, respectively, which also reports the num-
 ber of sources displayed (i.e., having both optical and NIR photometry).
 The dashed line marks the separation between O- and C-rich sources
 according to Lebzelter et al. (2018). An arrow marks the source MSX
-LMC 124 in NGC 1830 that, having WBP,RP − WJ,Ks = 9.73 mag, lies out-
+LMC 124 in NGC 1830 that, having W BP,RP − W J,Ks = 9.73 mag, lies out-
 side the plot area. Background dots are LPVs in the LMC from OGLE-
 III (light gray) and Mowlavi et al. (2018) (darker gray).
 
@@ -748,7 +748,7 @@ Three of the sources without a spectral type lack Gaia pho-
 tometry, so they cannot be classiﬁed with the Gaia-2MASS. Two
 of them (LW5 and LW22 in 47 Tuc) have no match in Gaia
 EDR3, but they have NIR data and are probably O-rich based on
-their position in the J − Ks versus Ks color-magnitude diagram.
+their position in the J − K s versus Ks color-magnitude diagram.
 The third source is one of the two stars in NGC 1903 from the
 list of Grady et al. (2019), which we identiﬁed with the 2MASS
 source J05171633-6920298. It is likely C-rich according to the
@@ -836,9 +836,9 @@ the form given in Eq. B.1.
 
 Sp. type
 relation
-a0
-a1
-a2
+a 0
+a 1
+a 2
 
 O-rich
 
@@ -863,7 +863,7 @@ PA relation can be translated into a period-initial mass relation,
 which we derived using the same approach described above, and
 assuming the form
 
-log(Mi/M) = b0 + b1 (P/ P) + b2 (P/ P)2 .
+log(M i /M ) = b 0 + b 1 (P/ P) + b 2 (P/ P)2 .
 (B.2)
 
 The resulting best-ﬁt lines are displayed in Fig. B.1, and the co-
@@ -876,7 +876,7 @@ namely the star-formation history and age-metallicity relation.
 Appendix C: The shape of the period distribution
 
 As an example case, we consider an isochrone of age log(τ/yr) =
-8.3 and initial metallicity Zi = 0.006. Stars on the TP-AGB have
+8.3 and initial metallicity Z i = 0.006. Stars on the TP-AGB have
 initial masses Mi3.85 Mover a small range of ∼ 10−3 M.
 The relation between period and initial mass is displayed in
 panel (a) of Fig. C.1, where isochrone portions undergoing
@@ -935,12 +935,12 @@ Article number, page 8 of 9
 
 Trabucchi et al.: The period-age relation of LPVs
 
-Fig. B.1. Similar to Fig. 2, but showing initial mass Mi in place of age. The best-ﬁt lines to the most populated band and edges of the theoretical
-PFM – Mi relation are shown.
+Fig. B.1. Similar to Fig. 2, but showing initial mass M i in place of age. The best-ﬁt lines to the most populated band and edges of the theoretical
+P FM – M i relation are shown.
 
 Fig. C.1. Period distribution at ﬁxed age and metallicity. Panel (a) shows
 period as a function of initial mass (current mass on the top axis) on the
-TP-AGB for a ∼ 200 Myr old isochrone with Zi = 0.006. Red lines
+TP-AGB for a ∼ 200 Myr old isochrone with Z i = 0.006. Red lines
 show full thermal pulses, while blue lines ignore luminosity spikes and
 green lines show only the quiescent evolution. The same color code
 is used for the period distributions (normalized to their maximum) on
