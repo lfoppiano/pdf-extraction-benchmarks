@@ -1069,7 +1069,7 @@ Average / mean pooling
 a∈A a
 LeNet-5 [LBBH98] and [KSlB+10]
 
-2 pooling
+ℓ2 pooling
 a∈A a2
 [Le13]
 
@@ -1355,7 +1355,7 @@ https://github.com/ducha-aiki/caffenet-benchmark/blob/master/batchnorm.md
 
 Another normalization layer is Local Response Normalization as described in [KSH12],
 
-which includes2 normalization as described in [WWQ13]. Those two normalization layers,
+which includes ℓ2 normalization as described in [WWQ13]. Those two normalization layers,
 
 however, are superseded by Batch Normalization.
 
@@ -1783,7 +1783,7 @@ real value to a complex event like the predicted class of a feature vector. It i
 
 the objective function. For classiﬁcation problems the loss function is typically cross-entropy
 
-with1 or2 regularization, as it was described in [NH92]:
+with ℓ1 or ℓ2 regularization, as it was described in [NH92]:
 
 ECE (W ) = −
 
@@ -1803,13 +1803,13 @@ cross-entropy data loss
 
 + λ1 ·
 
-1
+ℓ1
 
 w∈W
 
 |w| +λ2 ·
 
-2
+ℓ2
 
 w∈W
 
@@ -3759,7 +3759,7 @@ P , P and p, ρ and P and ℘
 3 P and P, P, ℘ and p, ρ
 2
 Q
-Q, Q, Q, ι,,,,, Æ, 1
+Q, Q, Q, ι,,, ℓ,, Æ, 1
 7 Q and Q, Q
 1
 R
@@ -5466,7 +5466,7 @@ when the training loss was used as the early stopping criterion.
 
 Stronger regularization might even improve the results when using the training loss as an
 
-early stopping criterion.2 regularization with a weighting factor of λ = 0.0001 is used in
+early stopping criterion. ℓ2 regularization with a weighting factor of λ = 0.0001 is used in
 
 all other experiments. While the accuracy as shown in Table 5.19 does not show a clear
 
@@ -5526,7 +5526,7 @@ Training Set Test Set
 λ = 0.0001 77.96 % σ = 2.18 64.42 % σ = 0.73
 81.44 % 67.03 %
 
-Table 5.19.: Diﬀerent choices of2 model regularization applied to the optimized model.
+Table 5.19.: Diﬀerent choices of ℓ2 model regularization applied to the optimized model.
 
 λ
 min max mean std
@@ -5538,7 +5538,7 @@ min max mean std
 λ = 0.0001 579 833 696.1 79.1
 
 Table 5.20.: Training time in epochs of models with early stopping on training loss by diﬀerent
-choices of2 model regularization applied to the optimized model.
+choices of ℓ2 model regularization applied to the optimized model.
 
 69
 
@@ -6141,9 +6141,9 @@ and class k.
 
 However, regularization terms weighted with a constant λ ∈ (0, +∞) are sometimes added:
 
-• LASSO:1 (e.g., used in [HPTD15])
+• LASSO: ℓ1 (e.g., used in [HPTD15])
 
-• Weight decay:2 (e.g., λ = 0.0005 as in [MSM16])
+• Weight decay: ℓ2 (e.g., λ = 0.0005 as in [MSM16])
 
 • Orthogonality regularization (|(W T · W − I)|, see [VTKP17])
 
@@ -6511,7 +6511,7 @@ Regularization techniques aim to make the ﬁtted function smoother and reduce o
 
 Regularization techniques are:
 
-•1,2, and Orthogonality regularization: See Appendix B.4
+• ℓ1, ℓ2, and Orthogonality regularization: See Appendix B.4
 
 • Max-norm regularization (e.g. used ins [SHK+14])
 

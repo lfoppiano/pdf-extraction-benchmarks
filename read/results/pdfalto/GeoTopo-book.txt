@@ -3268,7 +3268,7 @@ Eine spezielle Homotopieäquivalenz sind sog. Deformationsretraktionen:
 Deﬁnition 44
 Sei X ein topologischer Raum, A ⊆ X, r : X → A eine stetige Abbildung und ι = (idX )|A.
 
-a) ι : A → X mit ι(x) = x heißt die Inklusionsabbildung und man schreibt: ι : A→ X.
+a) ι : A → X mit ι(x) = x heißt die Inklusionsabbildung und man schreibt: ι : A ↩→ X.
 
 b) r heißt Retraktion, wenn r|A = idA ist.
 
@@ -3419,7 +3419,7 @@ f∗([γ1] ∗ [γ2]) = [f ◦ (γ1 ∗ γ2)] = [(f ◦ γ1)] ∗ [(f ◦ γ2)] 
 b) (g ◦ f )∗([γ]) = [(g ◦ f ) ◦ γ] = [g ◦ (f ◦ γ)] = g∗([f ◦ γ]) = g∗(f∗([γ])) = (g∗ ◦ f∗)([γ])
 
 Beispiel 33
-1) f : S1→ R2 ist injektiv, aber f∗ : π1(S1, 1) ∼= Z → π1(R2, 1) = { e } ist nicht injektiv.
+1) f : S1 ↩→ R2 ist injektiv, aber f∗ : π1(S1, 1) ∼= Z → π1(R2, 1) = { e } ist nicht injektiv.
 
 2) f : R → S1, t→ (cos 2πt, sin 2πt) ist surjektiv, aber f∗ : π1(R, 0) = { e } → π1(S1, 1) ∼=
 Z ist nicht surjektiv.
@@ -8020,7 +8020,7 @@ P = { 2, 3, 5, 7, . . . } Primzahlen
 H = { z ∈ C |z > 0 } obere Halbebene
 I = [0, 1]R Einheitsintervall
 
-f : S1→ R2 Einbettung der Kreislinie in die Ebene
+f : S1 ↩→ R2 Einbettung der Kreislinie in die Ebene
 π1(X, x)
 Fundamentalgruppe im topologischen Raum X um x ∈ X
 Fix(f )
