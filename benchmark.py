@@ -11,6 +11,7 @@ from json import JSONDecodeError
 from pathlib import Path
 from typing import Literal
 
+import dotenv
 import fitz as PyMuPDF
 import pdfminer
 import pdfplumber
@@ -20,7 +21,8 @@ import pypdfium2
 import tika
 from pdfminer.high_level import extract_text as pdfminder_extract_text
 from rich.progress import track
-from tika import parser
+dotenv.load_dotenv(override=True)
+
 
 from pdf_benchmark.data_structures import Cache, Document, Library
 from pdf_benchmark.library_code import (

@@ -211,8 +211,9 @@ def pdfalto_get_text(data: bytes) -> str:
     new_file, filename = tempfile.mkstemp()
     with open(filename, "wb") as fp:
         fp.write(data)
-    pdf_to_text_path = "/Users/lfoppiano/development/projects/grobid/grobid-home/pdfalto/mac_arm-64/pdfalto"
-    if not os.path.exists(pdf_to_text_path):
+    pdf_to_text_path = os.environ["PDFALTO_EXECUTABLE"] if "PDFALTO_EXECUTABLE" in os.environ else None
+    if not (pdf_to_text_path or os.path.exists(pdf_to_text_path)):
+        print("To evaluate pdfalto, you need to create a .env file and place it at the root directory")
         pdf_to_text_path = 'pdfalto'
     args = [pdf_to_text_path, "-noImageInline", "-fullFontName", "-noImage", "-readingOrder", filename, "-"]
 
