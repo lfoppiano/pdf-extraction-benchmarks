@@ -61,7 +61,7 @@ def pdfium_image_extraction(data: bytes) -> list[tuple[str, bytes]]:
                 if isinstance(obj, pdfium.PdfImage):
                     img = BytesIO()
                     obj.extract(img)
-                    images.append((f"page-{i+1}-image-{index}.jpg", img.getvalue()))
+                    images.append((f"page-{i + 1}-image-{index}.jpg", img.getvalue()))
                     index += 1
     except Exception as exc:
         print(f"pdfium Image extraction failure: {exc}")
