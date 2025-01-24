@@ -231,6 +231,55 @@ def pdfalto_get_text(data: bytes) -> str:
     os.remove(filename_xml)
     return output
 
+def pdfalto_get_images(data: bytes) -> list[tuple[str, bytes]]:
+    images = []
+    new_file, filename = tempfile.mkstemp()
+
+    with open(filename, "wb") as fp:
+        fp.write(data)
+    pdf_to_text_path = os.environ["PDFALTO_EXECUTABLE"] if "PDFALTO_EXECUTABLE" in os.environ else None
+
+    if not (pdf_to_text_path or os.path.exists(pdf_to_text_path)):
+        print("To evaluate pdfalto, you need to create a .env file and place it at the root directory")
+        pdf_to_text_path = 'pdfalto'
+
+    output_directory = tempfile.TemporaryDirectory()
+    args = [pdf_to_text_path, filename, output_directory.name]
+    subprocess.run(args, capture_output=True)
+    output_image_directory = f"{output_directory.name}_data"
+    for idx, image in enumerate(os.listdir(output_image_directory)):
+        with open(os.path.join(output_image_directory, image), "rb") as fp:
+            images.append((image, fp.read()))
+
+    os.close(new_file)
+    os.remove(filename)
+    return images
+#
+# def pdfalto_v05_get_text(data: bytes) -> str:
+#     new_file, filename = tempfile.mkstemp()
+#     with open(filename, "wb") as fp:
+#         fp.write(data)
+#     pdf_to_text_path = os.environ["PDFALTO_EXECUTABLE_v05"] if "PDFALTO_EXECUTABLE_v05" in os.environ else None
+#     if not (pdf_to_text_path or os.path.exists(pdf_to_text_path)):
+#         print("To evaluate pdfalto, you need to create a .env file and place it at the root directory")
+#         pdf_to_text_path = 'pdfalto'
+#     args = [pdf_to_text_path, "-noImageInline", "-fullFontName", "-noImage", "-readingOrder", filename, "-"]
+#
+#     res = subprocess.run(args, capture_output=True)
+#     output_xml = res.stdout.decode("utf-8")
+#     new_file_xml, filename_xml = tempfile.mkstemp()
+#     with open(filename_xml, "w") as fp:
+#         fp.write(output_xml)
+#     xml_to_txt_path = "/usr/bin/xsltproc"
+#     args = [xml_to_txt_path, "resources/pdfalto/alto2txt.xsl", filename_xml]
+#     res = subprocess.run(args, capture_output=True)
+#     output = res.stdout.decode("utf-8")
+#     os.close(new_file)
+#     os.close(new_file_xml)
+#     os.remove(filename)
+#     os.remove(filename_xml)
+#     return output
+
 
 def pdfrw_watermarking(watermark_data: bytes, data: bytes) -> bytes:
     from pdfrw import PageMerge, PdfReader, PdfWriter
