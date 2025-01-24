@@ -13,7 +13,7 @@ from borb.toolkit.text.simple_text_extraction import SimpleTextExtraction
 from pdfminer.high_level import extract_pages
 from requests import ReadTimeout
 
-from .text_extraction_post_processing import postprocess, PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE
+from .text_extraction_post_processing import PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE
 
 
 def pymupdf_get_text(data: bytes) -> str:
@@ -29,7 +29,7 @@ def pypdf_get_text(data: bytes) -> str:
     reader = pypdf.PdfReader(BytesIO(data))
     for page in reader.pages:
         texts.append(page.extract_text())
-    text = postprocess(texts, reader.page_labels)
+    text = "\n".join(texts)
     return text
 
 
@@ -39,14 +39,13 @@ def pdfium_new_line_after_hyphens(text):
 
 def pdfium_get_text(data: bytes) -> str:
     texts = []
-    page_labels = []
     pdf = pdfium.PdfDocument(data)
 
     for i in range(len(pdf)):
         page = pdf.get_page(i)
         textpage = page.get_textpage()
         texts.append(pdfium_new_line_after_hyphens(textpage.get_text_range()))
-    text = postprocess(texts, page_labels)
+    text = "\n".join(texts)
     return text
 
 
