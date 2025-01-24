@@ -251,5 +251,16 @@ if __name__ == "__main__":
             last_release_date="2017-09-18",
             dependencies="",
         ),
+        "pdfalto": Library(
+            "pdfalto",
+            "pdfalto",
+            "https://github.com/kermitt2/pdfalto",
+            text_extraction_function=None,
+            version=0.5,
+            watermarking_function=None,
+            license="GPLv3",
+            last_release_date="-",
+            dependencies="",
+        ),
     }
     main(docs, libraries)
