@@ -50,7 +50,7 @@ Accepted XXX. Received YYY; in original form ZZZ
 MNRAS 000, 1–15 (2021)
 
 Preprint 4 January 2022
-Compiled using MNRAS LATEX style ﬁle v3.0
+Compiled using MNRAS L AT EX style ﬁle v3.0
 
 ABSTRACT
 
@@ -296,20 +296,20 @@ hanced Multi-Element Remote-Linked Interferometer Network, e-
 MERLIN array in the United Kingdom (project code: CY10003)
 on 13 January, 2021 (see Section 3.1.2). Six antennas were used
 including the 75-m Lovell telescope and the target pointing cen-
-tre was R.A. = 12ℎ 15𝑚55𝑠 .12, Dec. = −13◦0115.7. 1407+2827
+tre was R.A. = 12 ℎ 15 𝑚 55 𝑠 .12, Dec. = −13 ◦ 01 15. 7. 1407+2827
 was used as the bandpass calibrator, 1331+3030 as the ﬂux cal-
 ibrator and 1216−1033 as the phase calibrator. The angular sep-
-aration between the target and the phase calibrator is 2.47◦. The
+aration between the target and the phase calibrator is 2.47 ◦ . The
 data reduction was done following standard e-MERLIN calibra-
-tion procedures6 with additional ﬂagging of bad visibilities fol-
+tion procedures 6 with additional ﬂagging of bad visibilities fol-
 lowed by imaging. We found two confusing sources in the ﬁeld,
-at R.A. = 12ℎ 15𝑚44𝑠 .669, Dec. = −12◦5759.56 and R.A. =
-12ℎ 15𝑚37𝑠 .216, Dec. = −13◦0933.44 at 4.1and 9.4from the
+at R.A. = 12ℎ 15 𝑚 44 𝑠 .669, Dec. = −12 ◦ 5759. 56 and R.A. =
+12 ℎ 15 𝑚 37 𝑠 .216, Dec. = −13 ◦ 09 33. 44 at 4.1 and 9.4 from the
 pointing centre, respectively. They had apparent ﬂux densities of 4
 and 1.3 mJy without primary beam correction. We used these for
 self-calibration of the ﬁeld and then subtracted them before ﬁnal
-imaging. The ﬁnal image synthesized beam is 0.65 × 0.15, posi-
-tion angle 15◦ elongated in the Declination direction due to the low
+imaging. The ﬁnal image synthesized beam is 0. 65 × 0. 15, posi-
+tion angle 15 ◦ elongated in the Declination direction due to the low
 target elevation from the UK.
 
 2.3 The Swift satellite: UVOT and XRT observations
@@ -425,23 +425,23 @@ MNRAS 000, 1–15 (2021)
 
 MeerKAT, e-MERLIN, Swift and H.E.S.S., observations of three localised FRBs 5
 
-tion to sources within 5. Using this spatial coincidence criterion,
+tion to sources within 5 . Using this spatial coincidence criterion,
 we identiﬁed a persistent 1283 MHz continuum source near FRB
 20190714A, detected in both the 14 September 2019 and the 28
 September 2019 epoch. The peak of the MeerKAT radio emission
-is oﬀset by ∼ 2.1 from the peak of the 𝑖-band magnitude of the op-
+is oﬀset by ∼ 2 .1 from the peak of the 𝑖-band magnitude of the op-
 tical galaxy identiﬁed in the Panoramic Survey Telescope and Rapid
 Response System (PanSTARRS, located at Haleakala Observatory)
 image (shown as contours in Figures 2 and 3). The MeerKAT ra-
-dio source is oﬀset by 1.68 from the localisation region of FRB
+dio source is oﬀset by 1. 68 from the localisation region of FRB
 20190714 (cyan circle in Figures 2 and 3).
 
 3.1.2 e-MERLIN detection of compact emission towards
 FRB 20190714
 
 Compact persistent emission was detected in the 1.51 GHz e-
-MERLIN image at R.A. = 12ℎ 15𝑚55𝑠 .116, Dec. = −13◦0114.48
-at 86 𝜇Jy beam−1 by e-MERLIN. The stochastic position uncer-
+MERLIN image at R.A. = 12 ℎ 15 𝑚 55𝑠 .116, Dec. = −13 ◦ 01 14. 48
+at 86 𝜇Jy beam −1 by e-MERLIN. The stochastic position uncer-
 tainty is (0.04, 0.15) arcsec and the uncertainty (due to the sepa-
 ration between phase-calibrator and target, and antenna position
 uncertainty) is (0.013, 0.056) arcsec, giving a total astrometric
@@ -559,8 +559,8 @@ Figure 1. Astrometric comparison between MeerKAT and NVSS discrete compact sourc
 MeerKAT and NVSS sources.
 
 gamma-ray ﬂux above that threshold and assuming an energy depen-
-dence following 𝐸−2 is Φ(𝐸 > 120 GeV) < 2.10 × 10−12 cm−2 s−1
-or Φ(𝐸 > 120 GeV) < 1.7 × 10−12 erg cm−2 s−1. A variation of
+dence following 𝐸 −2 is Φ(𝐸 > 120 GeV) < 2.10 × 10 −12 cm −2 s −1
+or Φ(𝐸 > 120 GeV) < 1.7 × 10 −12 erg cm −2 s −1 . A variation of
 ± 0.5 of the assumed spectral index leads to a variation in the upper
 limit of less than ± 19%. A map of energy ﬂux upper limits covering
 the full region accessible within the H.E.S.S. ﬁeld of view above
@@ -570,9 +570,9 @@ the full region accessible within the H.E.S.S. ﬁeld of view above
 
 Of the targeted FRB ﬁelds reported here, only FRB 20190714A
 is observed to be spatially coincident with a persistent radio con-
-tinuum source. We obtain an upper limit of ∼ 15 𝜇Jy beam−1 for
+tinuum source. We obtain an upper limit of ∼ 15 𝜇Jy beam −1 for
 FRBs 20190711A and 20171019A, respectively, and a peak inten-
-sity of ∼ 53 𝜇Jy beam−1 for the emission coincident with FRB
+sity of ∼ 53 𝜇Jy beam −1 for the emission coincident with FRB
 20190714A. This source is detected at both epochs with similar
 intensities within the measured rms of the images (see Tables 1 and
 2 for details). The values in the Table 2 are derived by carrying
@@ -724,7 +724,7 @@ Figure 5. XRT summed image of FRB 20171019A region taken during the MWL observat
 Wolf 1561 star is shown in cyan and is labelled. The green box indicates FRB 20171019A 90% localisation region as reported in Kumar et al. (2019).
 
 FRB 20190714A (780 Mpc), an unresolved source with an an-
-gular size of 0.6 corresponds to a physical extent of2.3 kpc. The
+gular size of 0. 6 corresponds to a physical extent of2.3 kpc. The
 uGMRT reported the detection of an unresolved radio emission at
 650 MHz with a ﬂux density of 700±100 𝜇Jy (Wharton et al. 2021),
 while the JVLA detected persistent emission with a ﬂux density of
@@ -787,8 +787,8 @@ MNRAS 000, 1–15 (2021)
 MeerKAT, e-MERLIN, Swift and H.E.S.S., observations of three localised FRBs 11
 
 Figure 6. Map of upper limits on the VHE gamma-ray energy ﬂux derived from the H.E.S.S. observations. The limits are valid above 120 GeV and assume
-a photon ﬂux distribution following an 𝐸−2 dependence. The green box indicates the FRB 20171019A 90% localisation region as reported in Kumar et al.
-(2019).The oversampling radius is 0.1◦.
+a photon ﬂux distribution following an 𝐸 −2 dependence. The green box indicates the FRB 20171019A 90% localisation region as reported in Kumar et al.
+(2019).The oversampling radius is 0.1 ◦ .
 
 emissions. In the case of existence of X-ray non-thermal outbursts,
 the lack of VHE detection could indicate that inverse Compton is
@@ -1011,9 +1011,9 @@ de Naurois M., Rolland L., 2009, Astroparticle Physics, 32, 231
 
 APPENDIX A: AUTHOR AFFILIATIONS
 
-1Centre for Space Research, North-West University, Potchefstroom
+1 Centre for Space Research, North-West University, Potchefstroom
 2531, South Africa
-2Department of Physics and Astronomy, Faculty of Physical Sci-
+2 Department of Physics and Astronomy, Faculty of Physical Sci-
 ences, University of Nigeria, Carver Building, 1 University Road,
 Nsukka 410001, Nigeria
 3Jodrell Bank Centre for Astrophysics, Department of Physics and
@@ -1066,15 +1066,15 @@ MNRAS 000, 1–15 (2021)
 
 MeerKAT, e-MERLIN, Swift and H.E.S.S., observations of three localised FRBs 15
 
-25Sorbonne Université, Université Paris Diderot, Sorbonne Paris
+25 Sorbonne Université, Université Paris Diderot, Sorbonne Paris
 Cité, CNRS/IN2P3, Laboratoire de Physique Nucléaire et de Hautes
 Energies,
 LPNHE, 4 Place Jussieu, F-75252 Paris, France
-26Université Savoie Mont Blanc, CNRS, Laboratoire d’Annecy de
+26 Université Savoie Mont Blanc, CNRS, Laboratoire d’Annecy de
 Physique des Particules - IN2P3, 74000 Annecy, France
-27Astronomical Observatory, The University of Warsaw, Al. Ujaz-
+27 Astronomical Observatory, The University of Warsaw, Al. Ujaz-
 dowskie 4, 00-478 Warsaw, Poland
-28Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen
+28 Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen
 Centre for Astroparticle Physics, Erwin-Rommel-Str. 1, D 91058
 Erlangen, Germany
 29University of Oxford, Department of Physics, Denys Wilkinson

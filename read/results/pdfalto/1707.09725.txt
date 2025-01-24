@@ -239,7 +239,9 @@ Contents
 
 1 Introduction
 
+
 2 Convolutional Neural Networks
+
 
 2.1 Linear Image Filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -286,6 +288,7 @@ Contents
 2.6 Accuracy boosting techniques . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 3 Topology Learning
+
 
 3.1 Growing approaches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -346,11 +349,13 @@ xi
 
 4 Hierarchical Classiﬁcation
 
+
 4.1 Advantages of classiﬁer hierarchies . . . . . . . . . . . . . . . . . . . . . . 
 
 4.2 Clustering classes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 5 Experimental Evaluation
+
 
 5.1 Baseline Model and Training setup . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -394,9 +399,12 @@ xi
 
 6 Conclusion and Outlook
 
+
 A Figures, Tables and Algorithms
 
+
 B Hyperparameters
+
 
 B.1 Preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -413,6 +421,7 @@ B.6 Network Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 B.7 Regularization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 C Calculating Network Characteristics
+
 
 C.1 Parameter Numbers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -437,6 +446,7 @@ C.3 Memory Footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 D Common Architectures
 
+
 D.1 LeNet-5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 D.2 AlexNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -449,13 +459,18 @@ D.5 Inception-v4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 E Datasets
 
+
 F List of Tables
+
 
 G List of Figures
 
+
 H Bibliography
 
+
 I Glossary
+
 
 
 
@@ -763,9 +778,9 @@ One important detail is how boundaries are treated. There are four common ways o
 
 boundary treatment:
 
-• don’t compute: The image Iwill be smaller than the original image. I∈
+• don’t compute: The image I will be smaller than the original image. I ∈
 
-R(w−kw+1)×(h−kh+1)×d3 , to be exact.
+R (w−kw+1)×(h−k h +1)×d 3 , to be exact.
 
 • zero padding: The image I is padded by zeros where the ﬁlter would access elements
 
@@ -908,28 +923,28 @@ j=1
 wij · xj
 with i ∈ { 1, . . . , w } × { 1, . . . , h } × { 1, . . . , d } [2.1]
 
-o(x,y,z)(I) = b +
+o (x,y,z) (I) = b +
 
 kw
 2
 
-ix=1−kw
+ix=1− kw
 
 2
 
-kh
+k h
 2
 
 iy=1−
 
-kh
+k h
 2
 
 d
 
 ic=1
 
-Fz (ix, iy, ic) · I(x + ix, y + iy, ic)
+F z (i x , i y , i c ) · I(x + i x , y + iy , i c )
 [2.2]
 
 with a bias b ∈ R, x ∈ { 1, . . . , w } , y ∈ { 1, . . . , h } and z ∈ { 1, . . . , d }
@@ -995,7 +1010,7 @@ maps of size sx × sy has n · d(i−1) · (kw · kh) parameters if no bias is u
 
 connected layer which produces the same output size and does not use a bias would have
 
-n · d(i−1) · (sx × sy)2 parameters. This means a convolutional layer has drastically fewer
+n · d (i−1) · (sx × s y ) 2 parameters. This means a convolutional layer has drastically fewer
 parameters. One the one hand, this means it can learn less complex decision boundaries. On
 
 the other hand, it means fewer parameters have to be learned and hence the optimization
@@ -1067,9 +1082,9 @@ Average / mean pooling
 |A|
 
 a∈A a
-LeNet-5 [LBBH98] and [KSlB+10]
+LeNet-5 [LBBH98] and [KSlB + 10]
 
-ℓ2 pooling
+2 pooling
 a∈A a2
 [Le13]
 
@@ -1078,12 +1093,12 @@ Stochastic pooling
 [ZF13]
 
 Table 2.1.: Pooling types for a set A of activations a ∈ R.
-(*) For stochastic pooling, each of the p × p activation values ai in the pooling region gets
-picked with probability pi =
+(*) For stochastic pooling, each of the p × p activation values a i in the pooling region gets
+picked with probability p i =
 
 ai
 
-aj ∈A aj . This assumes the activations ai are non-negative.
+a j ∈A aj . This assumes the activations a i are non-negative.
 
 Pooling is applied for three reasons: To get local translational invariance, to get invariance
 
@@ -1209,7 +1224,7 @@ well-described in [SHK+14].
 
 A Dropout layer can be implemented as follows: For an input in of any shape s, a tensor of
 
-the same shape D ∈ { 0, 1 }s is sampled, where each element di is sampled independently
+the same shape D ∈ { 0, 1 } s is sampled, where each element di is sampled independently
 
 from a Bernoulli distribution. The results are element-wise multiplied to calculate the
 
@@ -1271,14 +1286,14 @@ input features might drastically change over time.
 
 One way to approach this problem is by normalizing mini-batches as described in [IS15]. A
 
-Batch Normalization layer with d-dimensional input x = (x(1), . . . , x(d)) is ﬁrst normalized
+Batch Normalization layer with d-dimensional input x = (x (1), . . . , x (d)) is ﬁrst normalized
 
 point-wise to
 
 x(k) =
-x(k) − x(k)
+x (k) − x(k)
 
-s[x(k)]2 + ε
+s [x (k) ]2 + ε
 
 with x(k) = 1
 
@@ -1291,18 +1306,18 @@ i=1 x
 (k)
 i
 
-being the sample mean and s[x(k)]2 = 1
+being the sample mean and s [x (k) ] 2 = 1
 
 m
 
 m
 
-i=1(x
+i=1 (x
 
 (k)
 
-i − x(k)) the
-sample variance where m ∈ N≥1 is the number of training samples per mini-batch, ε > 0
+i − x(k) ) the
+sample variance where m ∈ N ≥1 is the number of training samples per mini-batch, ε > 0
 
 being a small constant to prevent division by zero and x
 
@@ -1355,7 +1370,7 @@ https://github.com/ducha-aiki/caffenet-benchmark/blob/master/batchnorm.md
 
 Another normalization layer is Local Response Normalization as described in [KSH12],
 
-which includes ℓ2 normalization as described in [WWQ13]. Those two normalization layers,
+which includes2 normalization as described in [WWQ13]. Those two normalization layers,
 
 however, are superseded by Batch Normalization.
 
@@ -1423,7 +1438,7 @@ Two common ways to add more parameters to neural networks are increasing their d
 
 by adding more layers or increasing their width by adding more neurons / ﬁlters. Inception
 
-blocks [AM15] implicitly started a new idea which was explicitly described in [XGD+16] as
+blocks [AM15] implicitly started a new idea which was explicitly described in [XGD +16] as
 
 “ResNeXt block”: Increasing the cardinality C ∈ N≥1. By cardinality, the authors describe
 
@@ -1545,7 +1560,7 @@ architectural design choices. One constraint is the number of feature maps (see 
 
 for details). In order to reduce the number of feature maps while still keeping as much
 
-relevant information as possible in the network, a convolutional layer i with ki ﬁlters of
+relevant information as possible in the network, a convolutional layer i with k i ﬁlters of
 
 the shape 1 × 1 × ki−1 is added. The number of ﬁlters ki directly controls the number of
 
@@ -1633,19 +1648,19 @@ are not covered by the training set and thus indicate the need to collect more d
 
 2.5.2. Confusion Matrices
 
-A confusion matrix is a matrix (c)ij ∈ NK×K
-≥0 , where K ∈ N≥2 is the number of classes,
+A confusion matrix is a matrix (c) ij ∈ N K×K
+≥0 , where K ∈ N ≥2 is the number of classes,
 which contains all correct and wrong classiﬁcations. The item cij is the number of times
 
 items of class i were classiﬁed as class j. This means the correct classiﬁcation is on the
 
-diagonal cii and all wrong classiﬁcations are of the diagonal. The sumK
+diagonal c ii and all wrong classiﬁcations are of the diagonal. The sum K
 
 i=1
 
 K
 
-j=1 cij is the
+j=1 c ij is the
 total number of samples which were evaluated and
 
 i=1 cii
@@ -1783,7 +1798,7 @@ real value to a complex event like the predicted class of a feature vector. It i
 
 the objective function. For classiﬁcation problems the loss function is typically cross-entropy
 
-with ℓ1 or ℓ2 regularization, as it was described in [NH92]:
+with1 or2 regularization, as it was described in [NH92]:
 
 ECE (W ) = −
 
@@ -1803,13 +1818,13 @@ cross-entropy data loss
 
 + λ1 ·
 
-ℓ1
+1
 
 w∈W
 
 |w| +λ2 ·
 
-ℓ2
+2
 
 w∈W
 
@@ -1879,7 +1894,7 @@ Quality criteria
 
 There are several quality criteria for classiﬁcation models. Most quality criteria are based
 
-the confusion matrix c which denotes at cij the number of times the real class was i and j
+the confusion matrix c which denotes at c ij the number of times the real class was i and j
 
 was predicted. This means the diagonal contains the number of correct predictions. For
 
@@ -2363,11 +2378,11 @@ the correlation between candidates output value V with the networks residual err
 
 S =
 
-o∈Op∈T
+o∈O p∈T
 
-Vp − V(Ep,o − Ēo)
+V p − V (E p,o − Ēo )
 
-where O is the set of output nodes, T is the training set, Vp is the candidate neurons
+where O is the set of output nodes, T is the training set, V p is the candidate neurons
 
 activation for a training pattern p. Ep,o is the residual output error at node o for
 
@@ -2416,11 +2431,11 @@ division. A node j is splitted, when the random part dominates the value of the 
 weights:
 
 i σij
-i µij
+i µ ij
 
 > 1 and
-k σjk
-k µjk
+k σ jk
+k µ jk
 
 > 1
 
@@ -2486,7 +2501,7 @@ A follow-up method called Optimal Brain Surgeon [HSW93] claims to choose the wei
 
 in a much better way. This requires, however, to calculate the inverse Hessian matrix
 
-H−1 ∈ Rn×n where n ∈ N is typically n > 106.
+H −1 ∈ R n×n where n ∈ N is typically n > 10 6 .
 
 A much simpler and computationally cheaper pruning criterion is the weight magnitude.
 
@@ -2608,7 +2623,7 @@ Designing a classiﬁer for a new dataset is hard for two main reasons: Many des
 
 not clearly superior to others and evaluating one design choice takes much time. Especially
 
-CNNs are known to take several days [KSH12, SLJ+15] or even weeks [SZ14] to train.
+CNNs are known to take several days [KSH12, SLJ +15] or even weeks [SZ14] to train.
 
 Additionally, some methods for analyzing a dataset become harder to use with more classes
 
@@ -2839,15 +2854,15 @@ permutation.
 
 5. Experimental Evaluation
 
-All experiments are implemented using Keras 2.0 [Cho15] with Tensorﬂow 1.0 [AAB+16]
+All experiments are implemented using Keras 2.0 [Cho15] with Tensorﬂow 1.0 [AAB + 16]
 
-and cuDNN 5.1 [CWV+14] as the backend. The experiments were run on diﬀerent machines
+and cuDNN 5.1 [CWV + 14] as the backend. The experiments were run on diﬀerent machines
 
 with diﬀerent Nvidia graphics processing units (GPUs), including the Titan Black, GeForce
 
 GTX 970 and GeForce 940MX.
 
-The GTSRB [SSSI12], SVHN [NWC+11b], CIFAR-10 and CIFAR-100 [Kri], MNIST [YL98],
+The GTSRB [SSSI12], SVHN [NWC + 11b], CIFAR-10 and CIFAR-100 [Kri], MNIST [YL98],
 
 HASYv2 [Tho17a], STL-10 [CLN10] dataset are used for the evaluation. Those datasets are
 
@@ -2898,7 +2913,7 @@ Street View. The images are in color and of size 32 px × 32 px. The state of th
 
 5. Experimental Evaluation
 
-achieves an accuracy of 98.41 % [HLW16]. According to [NWC+11a], human performance
+achieves an accuracy of 98.41 % [HLW16]. According to [NWC+ 11a], human performance
 
 is at 98.0 %.
 
@@ -2908,7 +2923,7 @@ For GTSRB, the training and test data was scaled to 32 px × 32 px.
 
 5.1. Baseline Model and Training setup
 
-The baseline model is trained with Adam [KB14], an initial learning rate of 10−4, a batch
+The baseline model is trained with Adam [KB14], an initial learning rate of 10 −4 , a batch
 
 size of 64 for at most 1000 epochs with data augmentation. The kind of data augmentation
 
@@ -3759,7 +3774,7 @@ P , P and p, ρ and P and ℘
 3 P and P, P, ℘ and p, ρ
 2
 Q
-Q, Q, Q, ι,,, ℓ,, Æ, 1
+Q, Q, Q, ι,,,,, Æ, 1
 7 Q and Q, Q
 1
 R
@@ -3924,11 +3939,11 @@ consider data points where the root classiﬁer correctly identiﬁed the cluste
 5.5. Increased width for faster learning
 More ﬁlters in one layer could simplify the optimization problem as each ﬁlter needs smaller
 
-updates. Hence a CNN N with ni ﬁlters in layer i is expected to take more epochs than a
+updates. Hence a CNN N with n i ﬁlters in layer i is expected to take more epochs than a
 
-CNN Nwith 2 · ni ﬁlters in layer i to achieve the same validation accuracy.
+CNN N with 2 · n i ﬁlters in layer i to achieve the same validation accuracy.
 
-This hypothesis can be falsiﬁed by training a CNN N and a CNN Nand comparing the
+This hypothesis can be falsiﬁed by training a CNN N and a CNN N and comparing the
 
 trained number of epochs. As more ﬁlters can lead to diﬀerent results depending on the
 
@@ -4245,21 +4260,21 @@ Hence the eﬀect of removing Batch Normalization from the baseline is investiga
 
 experiment.
 
-As before, 10 models are trained on CIFAR-100. The training setup and the model mno-bn
+As before, 10 models are trained on CIFAR-100. The training setup and the model m no-bn
 
-are identical to the baseline model m, except that in mno-bn the Batch Normalization layers
+are identical to the baseline model m, except that in m no-bn the Batch Normalization layers
 
 are removed.
 
 One notable diﬀerence is the training time: While m needs 21 ms per epoch in average on
 
-a GTX 980, mno-bn only needs 21 ms per epoch. The number of epochs used for training,
+a GTX 980, m no-bn only needs 21 ms per epoch. The number of epochs used for training,
 
 however, also increased noticeably from 149 epochs to 178 epochs in average. The standard
 
-deviation of trained epochs is 17.3 epochs for the baseline model and 23.4 epochs for mno-bn.
+deviation of trained epochs is 17.3 epochs for the baseline model and 23.4 epochs for m no-bn .
 
-The mean accuracy of mno-bn is 62.86 % and hence 0.52 percentage points worse. The
+The mean accuracy of m no-bn is 62.86 % and hence 0.52 percentage points worse. The
 
 standard deviation between models increased from 0.55 to 0.61. This is likely a result of the
 
@@ -4308,7 +4323,7 @@ Batch Normalization.
 
 5.9. Batch size
 
-The mini-batch size m ∈ N≥1 inﬂuences
+The mini-batch size m ∈ N ≥1 inﬂuences
 
 • Epochs until convergence: The smaller m, the more often the model is updated
 
@@ -4316,7 +4331,7 @@ in one epoch. Those updates, however, are based on fewer samples of the dataset.
 
 Hence the gradients of diﬀerent mini-batches can noticeably diﬀer. In the literature,
 
-this is referred to as gradient noise [KMN+16].
+this is referred to as gradient noise [KMN+ 16].
 
 • Training time per epoch: The smaller the batch size, the higher the training time
 
@@ -4567,7 +4582,7 @@ is either not important or similar important as the possibility to produce negat
 
 This contradicts [GBB11, SMGS14].
 
-A key diﬀerence between the logistic− function and ELU is that ELU does neither suﬀers
+A key diﬀerence between the logistic − function and ELU is that ELU does neither suﬀers
 
 from the vanishing gradient problem nor is its range of values bound. For this reason, the
 
@@ -4710,7 +4725,7 @@ Logistic
 σ = 3.22
 61.19 %
 54.58 %
-Logistic−
+Logistic −
 66.49 %
 σ = 1.99
 57.84 %
@@ -5466,7 +5481,7 @@ when the training loss was used as the early stopping criterion.
 
 Stronger regularization might even improve the results when using the training loss as an
 
-early stopping criterion. ℓ2 regularization with a weighting factor of λ = 0.0001 is used in
+early stopping criterion.2 regularization with a weighting factor of λ = 0.0001 is used in
 
 all other experiments. While the accuracy as shown in Table 5.19 does not show a clear
 
@@ -5487,7 +5502,7 @@ Fixed epochs
 val. acc train loss
 
 Asirra
-93.09 % 96.01 %3
+93.09 % 96.01 % 3
 96.01 %
 CIFAR-10
 89.86 % 91.75 %
@@ -5495,7 +5510,7 @@ CIFAR-10
 CIFAR-100 67.03 % 71.01 %
 69.08 %
 HASYv2
-85.92 % 82.89 %4
+85.92 % 82.89 % 4
 85.05 %
 MNIST
 99.67 % 99.64 %
@@ -5526,7 +5541,7 @@ Training Set Test Set
 λ = 0.0001 77.96 % σ = 2.18 64.42 % σ = 0.73
 81.44 % 67.03 %
 
-Table 5.19.: Diﬀerent choices of ℓ2 model regularization applied to the optimized model.
+Table 5.19.: Diﬀerent choices of2 model regularization applied to the optimized model.
 
 λ
 min max mean std
@@ -5538,7 +5553,7 @@ min max mean std
 λ = 0.0001 579 833 696.1 79.1
 
 Table 5.20.: Training time in epochs of models with early stopping on training loss by diﬀerent
-choices of ℓ2 model regularization applied to the optimized model.
+choices of2 model regularization applied to the optimized model.
 
 69
 
@@ -5750,7 +5765,7 @@ Figure A.2.: The distribution of bias weights of a model without batch normaliza
 CIFAR-100.
 
 Algorithm 1 Simulated Annealing for minimizing Equation (4.1).
-Require: C ∈ Nn×n, steps ∈ N, T ∈ R+, c ∈ (0, 1)
+Require: C ∈ N n×n, steps ∈ N, T ∈ R+, c ∈ (0, 1)
 
 procedure SimulatedAnnealing(C, steps, T , c)
 bestScore ← accuracy(C)
@@ -6141,9 +6156,9 @@ and class k.
 
 However, regularization terms weighted with a constant λ ∈ (0, +∞) are sometimes added:
 
-• LASSO: ℓ1 (e.g., used in [HPTD15])
+• LASSO:1 (e.g., used in [HPTD15])
 
-• Weight decay: ℓ2 (e.g., λ = 0.0005 as in [MSM16])
+• Weight decay:2 (e.g., λ = 0.0005 as in [MSM16])
 
 • Orthogonality regularization (|(W T · W − I)|, see [VTKP17])
 
@@ -6156,9 +6171,9 @@ Most relevant optimization techniques for CNNs are based on SGD, which updates t
 
 weights according to the rule
 
-wji ← wji + ∆wji with ∆wji = −η
-∂Ex
-∂wji
+w ji ← w ji + ∆w ji with ∆w ji = −η
+∂E x
+∂w ji
 
 where η ∈ (0, 1), typically 0.01 (e.g., [MSM16]), is called the learning rate.
 
@@ -6497,9 +6512,9 @@ y
 1+e−x
 
 ϕ2(x) = tanh(x)
-ϕ3(x) = max(0, x)
-ϕ4(x) = log(ex + 1)
-ϕ5(x) = max(x, ex − 1)
+ϕ 3 (x) = max(0, x)
+ϕ 4 (x) = log(ex + 1)
+ϕ5 (x) = max(x, e x − 1)
 
 Figure B.1.: Activation functions plotted in [−2, +2]. tanh and ELU are able to produce negative
 numbers. The image of ELU, ReLU and Softplus is not bound on the positive side,
@@ -6511,7 +6526,7 @@ Regularization techniques aim to make the ﬁtted function smoother and reduce o
 
 Regularization techniques are:
 
-• ℓ1, ℓ2, and Orthogonality regularization: See Appendix B.4
+•1,2, and Orthogonality regularization: See Appendix B.4
 
 • Max-norm regularization (e.g. used ins [SHK+14])
 
@@ -6543,9 +6558,9 @@ C.1. Parameter Numbers
 
 due to the bias.
 
-• A convolutional layer i with ki ﬁlters of size n × m being applied to ki−1 feature maps
+• A convolutional layer i with ki ﬁlters of size n × m being applied to k i−1 feature maps
 
-has ki · ki−1(n · m + 1) parameters. The +1 is due to the bias.
+has k i · k i−1(n · m + 1) parameters. The +1 is due to the bias.
 
 • A fully connected layer with n nodes after k feature maps of size m1 × m2 has
 
@@ -6599,7 +6614,7 @@ calculating convolutions [LG16].
 
 • A fully connected layer with n nodes after k feature maps of size w×h needs 2n(k·w·h)
 
-FLOPs. The total number of FLOPs is 2n · (k · w · h) + n · nϕ.
+FLOPs. The total number of FLOPs is 2n · (k · w · h) + n · n ϕ .
 
 • As Dropout is only calculated during training, the number of FLOPs was set to 0.
 
@@ -6608,7 +6623,7 @@ FLOPs. The total number of FLOPs is 2n · (k · w · h) + n · nϕ.
 which the pooling kernel is applied. For a feature map of size w × h a max pooling
 
 ﬁlter with stride s gets applied w·h
-s2 . The number of FLOPs per application depends
+s 2 . The number of FLOPs per application depends
 on the kernel size. A 2 × 2 kernel is assumed to need 5 FLOPs.
 
 • The number of FLOPs for Batch Normalization is the same as the number of its
@@ -6768,7 +6783,7 @@ D.2. AlexNet
 
 The ﬁrst CNN which achieved major improvements on the ImageNet dataset was AlexNet [KSH12].
 
-Its architecture is shown in Figure D.2 and described in Table D.2. It has about 60·106 param-
+Its architecture is shown in Figure D.2 and described in Table D.2. It has about 60·10 6 param-
 
 eters. A trained AlexNet can be downloaded at www.cs.toronto.edu/guerzhoy/tf_alexnet.
 
@@ -7056,7 +7071,7 @@ The large number of parameters and operations is a problem when such models shou
 
 applied in practice to thousands of images. In order to reduce the computational cost while
 
-maintaining the classiﬁcation quality, GoogleNet [SLJ+15] and the Inception module were
+maintaining the classiﬁcation quality, GoogleNet [SLJ + 15] and the Inception module were
 
 developed. The Inception module essentially only computes 1 × 1 ﬁlters, 3 × 3 ﬁlters and
 
@@ -7064,9 +7079,9 @@ developed. The Inception module essentially only computes 1 × 1 ﬁlters, 3 × 
 parameters. It is shown in Figure D.4.
 
 Figure D.4.: Inception module
-Image source: [SLJ+15]
+Image source: [SLJ + 15]
 
-Compared to GoogleNet, Inception v2 [SVI+15] removed the 5 × 5 ﬁlters and replaced
+Compared to GoogleNet, Inception v2 [SVI + 15] removed the 5 × 5 ﬁlters and replaced
 
 them by two successive layers of 3 × 3 ﬁlters. A visualization of an Inception v2 module
 
@@ -7421,6 +7436,7 @@ F. List of Tables
 
 2.1 Pooling types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+
 5.1 Baseline architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 5.2 Baseline model evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -7483,6 +7499,7 @@ D.4 Inception-v4 network . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 
 
+
 E.1 Image Benchmark datasets . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
 
 E.2 State of the Art results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
@@ -7527,9 +7544,12 @@ G. List of Figures
 
 2.1 Application of a single image ﬁlter (Convolution) . . . . . . . . . . . . . . .
 
+
 2.2 Application of a convolutional layer . . . . . . . . . . . . . . . . . . . . . . .
 
+
 2.3 Max pooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
 
 2.4 ResNet module . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -7589,6 +7609,7 @@ A.2 Bias weight distribution without BN . . . . . . . . . . . . . . . . . . . . 
 
 
 
+
 77
 78
 85
@@ -7619,7 +7640,7 @@ D.5 Inception v2 module . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 H. Bibliography
 
-[AAB+16]
+[AAB + 16]
 M. Abadi, A. Agarwal et al., “Tensorﬂow: Large-scale machine learning on
 
 heterogeneous distributed systems,” arXiv preprint arXiv:1603.04467, Mar.
@@ -7854,7 +7875,7 @@ Available: https://www.microsoft.com/en-us/research/publication/asirra-a-
 
 captcha-that-exploits-interest-aligned-manual-image-categorization/
 
-[EKS+96]
+[EKS + 96]
 M. Ester, H.-P. Kriegel et al., “A density-based algorithm for discovering
 
 clusters in large spatial databases with noise.” in Kdd, vol. 96, no. 34, 1996,
@@ -8021,7 +8042,7 @@ J. Han, J. Pei, and M. Kamber, Data mining: concepts and techniques.
 
 Elsevier, 2011.
 
-[HPN+16]
+[HPN +16]
 S. Han, J. Pool et al., “DSD: Regularizing deep neural networks with
 
 dense-sparse-dense training ﬂow,” arXiv preprint arXiv:1607.04381, Jul. 2016.
@@ -8105,7 +8126,7 @@ training by reducing internal covariate shift,” arXiv preprint arXiv:1502.0316
 
 Feb. 2015. [Online]. Available: https://arxiv.org/abs/1502.03167
 
-[JXF+16]
+[JXF+ 16]
 X. Jin, C. Xu et al., “Deep learning with s-shaped rectiﬁed linear activation
 
 units,” in Thirtieth AAAI Conference on Artiﬁcial Intelligence, Dec. 2016.
@@ -8420,7 +8441,7 @@ data mining,” IEEE transactions on knowledge and data engineering, vol. 14,
 
 no. 5, pp. 1003–1016, 2002.
 
-[NWC+11a] Y. Netzer, T. Wang et al., “Reading digits in natural images with
+[NWC + 11a] Y. Netzer, T. Wang et al., “Reading digits in natural images with
 
 unsupervised feature learning,” in NIPS workshop on deep learning and
 
@@ -8742,7 +8763,7 @@ Springer Berlin Heidelberg, Nov. 2013, no. 11, pp. 572–585. [Online].
 
 Available: http://dx.doi.org/10.1007/978-3-642-37431-9_44
 
-[WYS+15]
+[WYS +15]
 R. Wu, S. Yan et al., “Deep image: Scaling up image recognition,” arXiv
 
 preprint arXiv:1501.02876, vol. 7, no. 8, Jul. 2015. [Online]. Available:

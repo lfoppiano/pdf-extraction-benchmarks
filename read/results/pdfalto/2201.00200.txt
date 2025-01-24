@@ -217,9 +217,9 @@ at r = 0.6734 × Rstar for this speciﬁc stellar model) is set by
 the stable radiative gradient, ∇rad (see the dashed black line be-
 low the convective boundary in Fig. 1). B21 show that, as a re-
 sult of the local heating below the convective boundary charac-
-terised by the bump in temperature diﬀerence ∆T/T0 displayed
+terised by the bump in temperature diﬀerence ∆T/T 0 displayed
 in Fig. 1, the temperature gradient becomes less sub-adiabatic
-immediately below the convective boundary1. The net result is
+immediately below the convective boundary 1 . The net result is
 a smoother transition just below the convective boundary with
 a temperature gradient that has an intermediate value between
 the radiative temperature gradient and the adiabatic one. In the
@@ -371,7 +371,7 @@ For rov ≤ r < rmid, we use
 
 with
 
-h(r) = b × sin{[(rmid − r)/(rmid − rov)] × π}.
+h(r) = b × sin{[(r mid − r)/(r mid − r ov )] × π}.
 (5)
 
 Sine functions are used in Eqs. (3) and (5) to reproduce the
@@ -392,13 +392,13 @@ b.
 The details of the procedure for the ﬁrst method are the follow-
 ing. We calculate the evolution of a 1 Mmodel with an initial
 helium mass fraction of 0.28, metallicity Z = 0.02, and a mix-
-ing length lmix = 1.9HP. We use a reference model that is in
+ing length l mix = 1.9H P . We use a reference model that is in
 thermal equilibrium2 and has the luminosity and radius of the
 current Sun. Starting from this reference model, the tempera-
 ture gradient is modiﬁed over a prescribed depth to mimic the
 impact of overshooting according to the hydrodynamical sim-
 ulations described in Sect. 2. We adopt the prescription given
-by Eqs. (2)-(5) over a distance dov below the convective bound-
+by Eqs. (2)-(5) over a distance d ov below the convective bound-
 ary. We show the results in Fig. 2 for αov = 0.15 and αov= 0.20.
 These overshooting widths are in good agreement with the maxi-
 mal depth reached by downﬂows below the convective boundary

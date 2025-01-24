@@ -125,7 +125,7 @@ magnetic resonance (MR) imaging or ultrasonog-
 raphy whereas colored photographs are obviously
 widespread.
 • Excluding or including depth data: RGB-D,
-sometimes also called range [HJBJ+96] is avail-
+sometimes also called range [HJBJ + 96] is avail-
 able in robotics, autonomous cars and recently
 also in consumer electronics such as Microsoft
 Kinect [Zha12].
@@ -257,7 +257,7 @@ k
 i=1
 
 nii
-ti−nii+k
+ti−nii+ k
 
 j=1 nji ∈ [0, 1]
 • frequency weighted intersection over union:
@@ -265,15 +265,15 @@ j=1 nji ∈ [0, 1]
 
 k
 
-i=1 ti)
+i=1 t i )
 
 −1
 k
 
-i=1 ti ·
+i=1 t i ·
 
 nii
-ti−nii+k
+ti−nii+ k
 
 j=1 nji ∈ [0, 1]
 Another problem might be pixels which cannot be
@@ -887,32 +887,32 @@ lem is approached by transforming the feature
 vectors x with a non-linear mapping Φ into
 a higher dimensional (probably ∞-dimensional)
 space. As the feature vectors x are only used
-within scalar productxi, xj, it is not necessary
+within scalar product x i , x j , it is not necessary
 to do the transformation. It is enough to do the
 calculation
 
-K(xi, xj ) =xi, xj
+K(x i , x j ) = x i , x j
 
 This function K is called a kernel. The idea of
-never explicitly transforming the vectors xi to the
+never explicitly transforming the vectors x i to the
 higher dimensional space is called the kernel trick.
 Common kernels include the polynomial kernel
 
-KP (xi, xj ) = (xi, xj+ r)p
+K P (x i , x j ) = ( x i , x j + r) p
 
 of degree p and coefﬁcient r, the Gaussian radial
 basis function (RBF) kernel
 
-KGauss(xi, xj ) = e
+K Gauss (x i , xj ) = e
 
-−γxi−xj
+−γx i−x j
 2
 
-2σ2
+2σ 2
 
 and the sigmoid kernel
 
-Ktanh(xi, xj ) = tanh(γxi, xj− r)
+K tanh (x i, xj ) = tanh(γxi, xj − r)
 
 where the parameter γ determines how much
 inﬂuence single training examples have.
@@ -1092,7 +1092,7 @@ Z(x)
 
 c∈C
 
-ψc(yc|x)
+ψ c (y c |x)
 
 The simplest way to deﬁne the clique potentials ψ is
 the count of the class yc given x added with a positive
@@ -1103,14 +1103,14 @@ performance in PASCAL VOC 2010 [VOC10] and
 are also used in [HZCP04], [SWRC06] for semantic
 segmentation.
 A method similar to CRFs was proposed
-in [GBVdW+10]. The system of Gonfaus et.al.
+in [GBVdW+ 10]. The system of Gonfaus et.al.
 ranked 1st by mean accuracy in the segmentation task
 of the PASCAL VOC 2010 challenge [EVGW+10].
 An introduction to CRFs is given by [SM11].
 
 G. Post-processing methods
 
-Post-processing reﬁne a found segmentation and
+Post-processing reﬁne a segmentation and
 remove obvious errors. For example, the morphological
 operations opening and closing can remove noise. The
 opening operation is a dilation followed by a erosion.
@@ -1772,7 +1772,7 @@ system for scenes containing objects with substruc-
 tures,” in Proceedings of the Fourth International
 Joint Conference on Pattern Recognitions, 1978, pp.
 752–754.
-[PAA+87]
+[PAA + 87]
 S. M. Pizer, E. P. Amburn, J. D. Austin,
 R. Cromartie, A. Geselowitz, T. Greer, B. ter
 Haar Romeny, J. B. Zimmerman, and K. Zuiderveld,
@@ -2076,13 +2076,13 @@ Open-CAS Endoscopic Datasets
 120
 2
 3
-[MHMK+14]
+[MHMK + 14]
 PASCAL VOC 2012
 (142 px − 500 px) × ( 71 px − 500 px)
 2913
 20
 3
-[EVGW+12]
+[EVGW +12]
 Warwick-QU
 (567 px − 775 px) × (430 px − 522 px)
 165
