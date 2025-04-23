@@ -261,7 +261,7 @@ generated sketches for portraits [TL05]. AIKON takes a digital
 photograph, detects faces on them and sketches them with a
 pen-plotter.
 
-Tresset and Leymaire use k-means clustering [KMN+02] to
+Tresset and Leymaire use k-means clustering [KMN + 02] to
 segment regions of the photograph with similar color which,
 in turn, will get a similar shading.
 

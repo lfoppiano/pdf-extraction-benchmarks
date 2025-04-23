@@ -377,7 +377,7 @@ an EU network of excellence
 4
 
 Beginning with 2007, a segmentation challenge was
-added [EVGW+a].
+added [EVGW + a].
 The dataset consists of annotated photographs from
 www.ﬂicker.com, a photo sharing website. There are
 multiple challenges for PASCAL VOC. The 2012
@@ -903,16 +903,16 @@ K P (x i , x j ) = ( x i , x j + r) p
 of degree p and coefﬁcient r, the Gaussian radial
 basis function (RBF) kernel
 
-K Gauss (x i , xj ) = e
+K Gauss (x i , x j ) = e
 
-−γx i−x j
+−γ x i −x j
 2
 
 2σ 2
 
 and the sigmoid kernel
 
-K tanh (x i, xj ) = tanh(γxi, xj − r)
+K tanh (x i , x j ) = tanh(γ x i , x j − r)
 
 where the parameter γ determines how much
 inﬂuence single training examples have.
@@ -1095,7 +1095,7 @@ c∈C
 ψ c (y c |x)
 
 The simplest way to deﬁne the clique potentials ψ is
-the count of the class yc given x added with a positive
+the count of the class y c given x added with a positive
 smoothing constant to prevent the complete term from
 getting zero.
 CRFs as described in [LRKT09] have reached top
@@ -1103,14 +1103,14 @@ performance in PASCAL VOC 2010 [VOC10] and
 are also used in [HZCP04], [SWRC06] for semantic
 segmentation.
 A method similar to CRFs was proposed
-in [GBVdW+ 10]. The system of Gonfaus et.al.
-ranked 1st by mean accuracy in the segmentation task
-of the PASCAL VOC 2010 challenge [EVGW+10].
+in [GBVdW + 10]. The system of Gonfaus et.al.
+ranked 1 st by mean accuracy in the segmentation task
+of the PASCAL VOC 2010 challenge [EVGW +10].
 An introduction to CRFs is given by [SM11].
 
 G. Post-processing methods
 
-Post-processing reﬁne a segmentation and
+Post-processing reﬁne a found segmentation and
 remove obvious errors. For example, the morphological
 operations opening and closing can remove noise. The
 opening operation is a dilation followed by a erosion.
@@ -1568,7 +1568,7 @@ volumetric x-ray ct images,” Medical Imaging, IEEE
 
 Transactions on, vol. 20, no. 6, pp. 490–498, Jun.
 2001.
-[HJBJ+96]
+[HJBJ + 96]
 A. Hoover, G. Jean-Baptiste, X. Jiang, P. J.
 Flynn, H. Bunke, D. B. Goldgof, K. Bowyer,
 D. W. Eggert, A. Fitzgibbon, and R. B.
@@ -2052,7 +2052,7 @@ DIARETDB1
 89
 4
 3
-[KKV+14]
+[KKV + 14]
 KITTI Road
 (1226 px − 1242 px) × (370 px − 376 px)
 289
@@ -2076,13 +2076,13 @@ Open-CAS Endoscopic Datasets
 120
 2
 3
-[MHMK + 14]
+[MHMK+ 14]
 PASCAL VOC 2012
 (142 px − 500 px) × ( 71 px − 500 px)
 2913
 20
 3
-[EVGW +12]
+[EVGW + 12]
 Warwick-QU
 (567 px − 775 px) × (430 px − 522 px)
 165

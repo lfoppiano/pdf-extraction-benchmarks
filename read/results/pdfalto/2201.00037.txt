@@ -115,7 +115,7 @@ node of orbit
 descending
 node of equator
 
-e q u at o r i a l
+e q u a t o r i a l
 p l a n e
 
 orbital
@@ -123,11 +123,11 @@ direction
 
 S
 
-ê3
+ê 3
 
 I
 
-ê 3
+ê3
 
 L
 
@@ -135,12 +135,12 @@ M
 
 ε m
 
-o r b it al p la n e
+o r b it a l p la n e
 
 Figure 1.
 The orbit of Mercury (M) around Sun (S) with respect to the Laplace plane (grey shaded
 
-rectangle) and the Cassini state of Mercury. The normal to the orbital plane (êI
+rectangle) and the Cassini state of Mercury. The normal to the orbital plane (ê I
 3 ) is oﬀset from the nor-
 mal to the Laplace plane (ê L
 3 ) by an angle I = 8.5330 ◦ . The symmetry axis of the mantle êp
@@ -177,7 +177,7 @@ core could be larger if a signiﬁcant fraction of its growth occurred earlier i
 
 Conﬁdential manuscript submitted to JGR-Planets
 
-With a ﬂuid core, and possibly a solid inner core, the observed obliquity εm reﬂects the
+With a ﬂuid core, and possibly a solid inner core, the observed obliquity ε m reﬂects the
 orientation of the spin-symmetry axis of the precessing mantle and crust alone. Neglecting dis-
 sipation, and at equilibrium in the Cassini state, the spin axis of the ﬂuid core and the spin-
 symmetry axis of the inner core should both also precess about the normal to the Laplace plane
@@ -345,7 +345,7 @@ Genova et al. [2019]
 mean density, ρ
 5429.5 kg m −3
 J 2
-5.0291 × 10−5
+5.0291 × 10 −5
 Genova et al. [2019]
 C 22
 8.0415 × 10 −6
@@ -353,15 +353,15 @@ Genova et al. [2019]
 polar surface ﬂattening, r
 6.7436 × 10 −4
 Perry et al. [2015]
-equatorial surface ﬂattening, ξ r 5.1243 × 10−4
+equatorial surface ﬂattening, ξ r 5.1243 × 10 −4
 Perry et al. [2015]
 
 Table 1.
-Reference parameters for Mercury. The mass M is computed from GM = 22031.8636 × 109
+Reference parameters for Mercury. The mass M is computed from GM = 22031.8636 × 10 9
 
-m3/s 2 taken from Genova et al. [2019]. The mean density is calculated from 4π
-3 ρR3 = M . The numerical
-values ofr and ξr are calculated fromr = (ā − c)/R and ξr = (a − b)/R, where ā = 1
+m 3 /s 2 taken from Genova et al. [2019]. The mean density is calculated from 4π
+3 ρR 3 = M . The numerical
+values ofr and ξr are calculated from r = (ā − c)/R and ξr = (a − b)/R, where ā = 1
 2 (a + b) and where
 a = 2440.53 km, b = 2439.28 km and c = 2438.26 km are the semimajor, intermediate and semiminor
 
@@ -433,8 +433,8 @@ M R2
 
 Conﬁdential manuscript submitted to JGR-Planets
 
-θm
-θn
+θ m
+θ n
 
 θ s
 
@@ -496,7 +496,7 @@ p
 
 p
 
-ê3
+ê 3
 
 L
 
@@ -507,13 +507,13 @@ Figure 2.
 Geometry of the Cassini state model of Mercury viewed (a) in the Cassini plane and (b)
 
 in a frame attached to the rotating mantle. The orbit normal (ê I
-3) is tilted by an angle I = 8.533 ◦ from
+3 ) is tilted by an angle I = 8.533 ◦ from
 the Laplace normal (ê L
 3 ) and the symmetry axis of Mercury’s mantle (ê p
 3 ) is tilted by an obliquity εm
 with respect to êI
-3. Shown in (a) are the orientations of the symmetry axis of the inner core (ês
-3), the
+3 . Shown in (a) are the orientations of the symmetry axis of the inner core (ê s
+3 ), the
 rotation rate vectors of the mantle (Ω), ﬂuid core (Ωf ) and inner core (Ωf ) and angles θp, θn, θm, θf
 
 and θs in their Cassini state equilibrium. All vectors and angles are in a common plane which we refer
@@ -543,8 +543,8 @@ Conﬁdential manuscript submitted to JGR-Planets
 Mercury’s rotation is characterized by a 3:2 spin-orbit resonance in which it completes
 3 rotations around itself for every 2 orbital revolutions around the Sun. The orbital period is
 87.96935 day and the sidereal rotation period is 58.64623 day [Stark et al., 2015b]. These de-
-ﬁne the mean motion n = 2π/87.96935 day−1 and the sidereal frequency Ωo = 2π/58.64623
-day−1, with Ωo = 1.5 n. Mercury’s rotational state is also characterized by a Cassini state whereby
+ﬁne the mean motion n = 2π/87.96935 day −1 and the sidereal frequency Ω o = 2π/58.64623
+day −1 , with Ω o = 1.5 n. Mercury’s rotational state is also characterized by a Cassini state whereby
 the orientations of the orbit normal (ê I
 3 ) and of the mantle symmetry axis (ê p
 3 ) are both copla-
@@ -854,17 +854,17 @@ c .
 (16b)
 
 The gravitational torque by the Sun acting on the inner core alone, Γs
-sun, is
+sun , is
 
 Γs
 sun = −iΩ 2
-o Āsα 3φs (εm + ñs ) .
+o Ās α 3 φ s (ε m + ñs ) .
 (17)
 
 Γcmb and Γicb are the torques from tangential stresses by the ﬂuid core on the mantle at the
 
 CMB and on the inner core at the ICB, respectively. These torques can be parameterized in
-terms of dimensionless complex coupling constants Kicb and Kcmb and the diﬀerential angu-
+terms of dimensionless complex coupling constants K icb and Kcmb and the diﬀerential angu-
 lar velocities at each boundary [e.g Buﬀett, 1992; Buﬀett et al., 2002],
 
 Γicb = iΩ2
@@ -961,8 +961,8 @@ M =
 
 ω − α 3 e s
 α 1 e s − K icb
-1 + ω + K icb (1 + ω − α 2 )e s + α 3 φ s
-α3φ s
+1 + ω + K icb (1 + ω − α 2)es + α3φ s
+α 3 φ s
 0
 0
 1
@@ -1052,7 +1052,7 @@ m = δω sin I + cos I εm .
 
 Equation (24b) gives a direct relationship between m and εm . For I = 8.5330 ◦ , δω =
 4.9327×10 −7 and taking εm = 2.04 arcmin, this gives m = 2.52×10 −4 arcmin, much smaller
-than εm: the oﬀset of the rotation axis of the mantle with respect to its symmetry axis is very
+than εm : the oﬀset of the rotation axis of the mantle with respect to its symmetry axis is very
 small. Substituting Equation (24b) in Equation (24a) gives
 
 CΩ p sin I + cos I εm = ĀΩ o φ m εm ,
@@ -1062,11 +1062,11 @@ and isolating for εm ,
 
 εm =
 CΩ p sin I
-−CΩp cos I + ĀΩoφm
+−CΩ p cos I + ĀΩ o φm
 .
 (26)
 
-Upon using Equations (4), (15a), and Ωo = 3
+Upon using Equations (4), (15a), and Ω o = 3
 2 n, we can write
 
 εm =
@@ -1115,9 +1115,9 @@ G 210 J 2 + 2G 201 C 22 ,
 which is equivalent to the prediction by Peale [2005] when neglecting its small elliptical com-
 ponent. Note that in Peale [2005] it was assumed that only the mantle was involved in the solid-
 body precession and hence C was replaced by C m . Using C = 0.346 · M R 2 [Margot et al.,
-2012] and the numerical values for n, J 2 , C22 and e c given in Table 1, we obtain a free preces-
-sion period of T f p = 2π/ω f p = 1298 yr. If we use C m instead of C in Equation (29), and take
-C m = 0.431 · C = 0.431 · 0.346 · M R2 [Margot et al., 2012], we obtain Tf p = 2π/ωf p = 560 yr.
+2012] and the numerical values for n, J 2 , C 22 and e c given in Table 1, we obtain a free preces-
+sion period of T f p = 2π/ω f p = 1298 yr. If we use Cm instead of C in Equation (29), and take
+C m = 0.431 · C = 0.431 · 0.346 · M R 2 [Margot et al., 2012], we obtain T f p = 2π/ω f p = 560 yr.
 These estimates are similar to those obtained by Peale [2005]. Because the CMB is elliptical,
 the pressure torque exerted on the ﬂuid core by the mantle leads to an entrainment of the ﬂuid
 core, the degree of which depends on the amplitude of the pole-to-equator CMB ﬂattening. The
@@ -1225,11 +1225,11 @@ In the limit of a very strong coupling between the ﬂuid core, solid core and m
 Ω p , so that ñs → 0, mf → 0 and Equation (31) reverts back to Equation (25)
 for a rigid planet. In the opposite limit of no coupling between the ﬂuid core, solid core and
 mantle (i.e. for spherical internal boundaries, e f = e s = γ s = 0 and no viscous or EM cou-
-pling, Kcmb = Kicb = 0), then
+pling, K cmb = K icb = 0), then
 
 φ s = 0 ,
 κ = 1 ,
-λ f = λ s = −Ω p cos I ,
+λ f = λ s = −Ωp cos I ,
 mf = ñs = −(tan I + εm ) .
 (34)
 
@@ -1295,7 +1295,7 @@ C m
 
 where
 
-f (e c ) = 1 − 11e2
+f (e c ) = 1 − 11e 2
 c +
 
 959
@@ -1307,7 +1307,7 @@ c ,
 and where ζ is a correction that takes into account the entrainment of the inner core in the li-
 bration [Van Hoolst et al., 2012; Dumberry et al., 2013; Dumberry and Rivoldini , 2015]; this cor-
 rection is small and, to simplify, we neglect it here. Taking the observed libration amplitude
-to be 38.5 arcsec [Margot et al., 2012], Ĉ = C/M R2 = 0.3455 and C22 and ec from Table 1,
+to be 38.5 arcsec [Margot et al., 2012], Ĉ = C/M R 2 = 0.3455 and C 22 and ec from Table 1,
 this corresponds to a ratio Cm/C = 0.4269, or equivalently Ĉm = Cm/M R2 = 0.1475.
 
 For all results presented in our study, the crustal density is set at ρc = 2974 kg m−3 [Sori ,
@@ -1495,22 +1495,22 @@ and the FICN mode is prograde [Mathews et al., 1991]. Note also that our approxi
 
 Conﬁdential manuscript submitted to JGR-Planets
 
-sion for the FICN diﬀers by a factor ( Ā+ Ās)/( Ā− Ās) compared to that given in Dumberry
+sion for the FICN diﬀers by a factor ( Ā+ Ās )/( Ā− Ās ) compared to that given in Dumberry
 and Wieczorek [2016] and Stys and Dumberry [2018] for the Moon.
 
 The expression for FCN frequency diﬀers from the usual expression for Earth. First, it
-involves the external torque from the Sun captured by the parameter φm. If we set φm = 0,
+involves the external torque from the Sun captured by the parameter φ m. If we set φm = 0,
 we obtain the FCN frequency for a decoupled model in which only interior torques contribute,
 
-ωf cn,int ≈ −Ωo
+ωf cn,int ≈ −Ω o
 
 Ā
 Ām + Ās
-ef .
+e f .
 (38c)
 
-This frequency is slightly diﬀerent from the usual expression for Earth, involving the ratio Ā/( Ām+
-Ās) rather than Ā/ Ām. This is because of the relatively thin mantle of Mercury; for the largest
+This frequency is slightly diﬀerent from the usual expression for Earth, involving the ratio Ā/( Ām +
+Ās) rather than Ā/ Ām . This is because of the relatively thin mantle of Mercury; for the largest
 
 rs considered, the moment of inertia of the inner core can get close to 40% of that of the man-
 tle and is not negligible. The period of the FCN when only interior torques contribute is shown
@@ -1522,7 +1522,7 @@ the external torque is set to zero.
 3.2 Gravitational and inertial coupling
 
 Let us now investigate the obliquities of the mantle, ﬂuid core and inner core in their equi-
-librium Cassini state. We assume a ﬁxed inner core density scenario in this section, with ρ s =
+librium Cassini state. We assume a ﬁxed inner core density scenario in this section, with ρs =
 8800 kg m−3. Viscous and EM coupling are set to zero in order to isolate the inﬂuence of grav-
 itational and inertial coupling. Figure 4 shows how εm, mf and ñs vary as functions of inner
 core radius. We show calculations for three diﬀerent choices of crustal thickness, but let us con-
@@ -1714,22 +1714,22 @@ Conﬁdential manuscript submitted to JGR-Planets
 Āf
 Āc
 
-Ωo cos I
-(σf − Ωp cos I)
+Ω o cos I
+(σ f − Ω p cos I)
 .
 (42)
 
-For a small inner core, χ ≈ 7.55×10−3. As the inner core grows, Āf decreases, and the com-
+For a small inner core, χ ≈ 7.55×10 −3 . As the inner core grows, Āf decreases, and the com-
 bination Ācχ also decreases. This implies that Cdecreases with inner core size and, consequently,
 εm also decreases with inner core size, as seen in Figure 4a, though it remains larger than the
 prediction for a rigid planet.
 
-The speciﬁc predictions of εm, mf and ñs on Figure 4 depend sensitively on the assumed
-interior density model and on the dynamical ellipticities of the inner core (es) and ﬂuid core
-(ef ). Hence, it depends on the choices we have made for the inner core density ρs, the crustal
-density ρc and its thickness h. Changing ρs, ρc and/or h requires a diﬀerent combination of ρf ,
-ρm and rf in order to match M , Ĉ and Ĉm. In turn, this leads to diﬀerent ellipticities at in-
-terior boundary in order to match J 2 and C 22 , and thus diﬀerent predictions for εm , mf and
+The speciﬁc predictions of εm , mf and ñs on Figure 4 depend sensitively on the assumed
+interior density model and on the dynamical ellipticities of the inner core (e s ) and ﬂuid core
+(e f ). Hence, it depends on the choices we have made for the inner core density ρ s , the crustal
+density ρ c and its thickness h. Changing ρs , ρ c and/or h requires a diﬀerent combination of ρf ,
+ρ m and rf in order to match M , Ĉ and Ĉm . In turn, this leads to diﬀerent ellipticities at in-
+terior boundary in order to match J2 and C 22 , and thus diﬀerent predictions for εm , mf and
 ñs . To illustrate this, we show on Figure 4 two additional predictions computed with crustal
 thicknesses changed to h = 16 and 36 km. The change in εm remains modest, ∼ 0.025%, but
 the changes in mf and ñs are more substantial, ∼ 5% and ∼ 10%, respectively.
@@ -1798,16 +1798,16 @@ Conﬁdential manuscript submitted to JGR-Planets
 
 The above parameterizations are valid only under the assumption that the ﬂow in the bound-
 ary layer remains laminar. Whether this is reasonable can be assessed by evaluating the Reynolds
-number Re = rf ∆u f /ν, associated with the diﬀerential velocity ∆u f = rf Ω o mf at the CMB.
+number Re = r f ∆u f /ν, associated with the diﬀerential velocity ∆u f = r f Ω o mf at the CMB.
 For r f = 2000 km, and taking mf = 4 arcmin ≈ 0.001 rad from the results in the previous
-section, we get ∆uf ∼ 2 mm/s and Re ∼ 6 × 109 . Such a large Reynolds number indicates
+section, we get ∆u f ∼ 2 mm/s and Re ∼ 6 × 10 9 . Such a large Reynolds number indicates
 that the viscous friction between the ﬂuid core and mantle should induce turbulent ﬂows, as
 is the case for the Cassini state of the Moon [Yoder , 1981; Williams et al., 2001; Cébron et al.,
 2019]. For a boundary layer that involves turbulent ﬂows, the viscous torque should be inde-
 pendent of the ﬂuid viscosity and proportional to the square of the diﬀerential velocity. The
-coupling constant Kcmb should be in the form
+coupling constant K cmb should be in the form
 
-Kcmb = fcmbmf0.195 − 1.976i,
+K cmb = f cmb mf 0.195 − 1.976i,
 (45)
 
 where fcmb is a numerical factor that depends among other things on surface roughness. In-
@@ -1993,10 +1993,10 @@ electrically conducting regions stretches existing magnetic ﬁeld lines that th
 This induces a secondary magnetic ﬁeld (or equivalently, an electrical current) and an associ-
 ated tangential EM stress resisting the diﬀerential motion. EM coupling at the CMB and ICB
 acts then in a similar way to viscous coupling, and this ’magnetic friction’ depends on the strength
-of the radial magnetic ﬁeld Br and the electrical conductivity σ on either side of the bound-
+of the radial magnetic ﬁeld B r and the electrical conductivity σ on either side of the bound-
 ary [Rochester , 1960, 1962, 1968].
 
-The parametrization of EM coupling in terms of the coupling constants Kcmb and Kicb
+The parametrization of EM coupling in terms of the coupling constants K cmb and K icb
 has been developed in a few studies [e.g. Buﬀett, 1992; Buﬀett et al., 2002; Dumberry and Koot,
 2012]. Assuming a dominating axial dipole ﬁeld, with a radial component at the CMB given
 by B r =
@@ -2006,7 +2006,7 @@ r cos θ, where B d
 r is the r.m.s. strength of the ﬁeld, the coupling constant
 K cmb can be written is the form
 
-K cmb = 3(1 − i)F cmb B d
+Kcmb = 3(1 − i)FcmbBd
 
 r
 
@@ -2015,24 +2015,24 @@ r
 
 where
 
-F cmb =
+Fcmb =
 1
-Ω o ρ f r f
+Ωoρf rf
 
 1
-σ m δ m
+σmδm
 +
 1
-σ f δ f
+σf δf
 
 −1
 
 ,
 (48)
 
-and where σm , δ m = 2/(σ mµΩ o ) and σf , δf =2/(σf µΩo) are the electrical conductivi-
+and where σm, δm =2/(σmµΩo) and σf , δf =2/(σf µΩo) are the electrical conductivi-
 ties and magnetic skin depths in the mantle and ﬂuid core, respectively, with µ = 4π × 10−7
-N A −2 the magnetic permeability of free space. The r.m.s. strengthBd
+N A−2 the magnetic permeability of free space. The r.m.s. ﬁeld strengthBd
 ris connected to
 the Gauss coeﬃcient g0
 1 of the surface magnetic ﬁeld by
@@ -2086,15 +2086,15 @@ At the ICB, because we can expect the electrical conductivity in both the solid 
 and ﬂuid core to be similar, and because the radial magnetic ﬁeld is likely much stronger, EM
 coupling can be much larger and dominate viscous coupling. We assume that the magnetic ﬁeld
 morphology at the ICB is dominantly comprised of small spatial scales for example as predicted
-by the dynamo model of Christensen [2006]. EM coupling in this case can be parametrized 
-terms of an equivalent uniform radial magnetic ﬁeld B rcapturing its r.m.s. strength [Buf-
+by the dynamo model of Christensen [2006]. EM coupling in this case can be parametrized in
+terms of an equivalent uniform radial magnetic ﬁeld B r capturing its r.m.s. strength [Buf-
 fett et al., 2002; Dumberry and Koot, 2012]. Assuming an electrical conductivity σ equal in the
 ﬂuid and solid core, the coupling constant K icb can be written in the form
 
 K icb =
 5
 4
-(1 − i)Ficb Br
+(1 − i)F icbB r
 2 ,
 (50)
 
@@ -2102,12 +2102,12 @@ where
 
 Ficb =
 σδ
-Ωoρsrs
+Ω o ρs r s
 ,
 (51)
 
 and where δ =
-2/(σµΩo) is the magnetic skin depth. As Ficb is inversely proportional to
+2/(σµΩ o ) is the magnetic skin depth. As Ficb is inversely proportional to
 rs, Kicb is inversely proportional to inner core size. Note that computing the EM coupling based
 on the r.m.s. strengthBrrather than a true ﬁeld morphology tends to overestimate the strength
 of the coupling [Koot and Dumberry, 2013]. However, since the strength of the radial magnetic
@@ -2164,9 +2164,9 @@ cury’s ﬁeld can be as high as that in Earth’s core, in all likelihood EM c
 Mercury remains in the weak ﬁeld regime.
 
 Figure 6 shows how εm , mf and ñs vary as functions of inner core radius for diﬀerent choices
-ofB r . The larger Br is, the stronger is the EM coupling at the ICB, and the smaller is the
+of B r . The larger B r is, the stronger is the EM coupling at the ICB, and the smaller is the
 diﬀerential rotation between the ﬂuid core and inner core. The inner core and ﬂuid core are vir-
-tually locked into a common precession motion whenBr> 0.3 mT. Further increasingBr
+tually locked into a common precession motion when B r > 0.3 mT. Further increasingB r
 above 1 mT does not change the solution as EM coupling already dominates all other torques
 on the inner core. This is the case even when EM coupling transitions into the strong ﬁeld regime.
 EM coupling at the CMB is included in these calculations, with σm = 1 S m−1 andg0
@@ -2498,9 +2498,9 @@ and again, importantly, in the reverse direction.
 Our results suggest then that the presence and size of an inner core leads to only mod-
 est changes of the mantle obliquity ε m compared to the obliquity predicted on the basis of an
 entirely rigid planet (εr
-m ). Let us denote this diﬀerence as ∆ε m = ε m −ε r
-m . The largest ∆ε m
-occurs for a small or no inner core, and is ∆ε m ≈ 0.01 arcmin. This diﬀerence is decreased
+m). Let us denote this diﬀerence as ∆εm = εm−εr
+m. The largest ∆εm
+occurs for a small or no inner core, and is ∆εm ≈ 0.01 arcmin. This diﬀerence is decreased
 as the inner core size is increased. For a suﬃciently large inner core, in the case of a strong EM
 coupling and large density contrast at the ICB, ∆εm can be negative, but its absolute value
 remains smaller than 0.01 arcmin.
@@ -2539,9 +2539,9 @@ Conﬁdential manuscript submitted to JGR-Planets
 
 ﬁnd that the misalignment ∆ε g = ε g − ε m is limited. The maximum oﬀset that we obtain
 is approximately ∆ε g ≈ 0.007 arcmin. This limited magnitude of oﬀset is important in the
-light of the recent obliquity of the gravity ﬁeld estimated in Genova et al. [2019], εg = 1.968±
+light of the recent obliquity of the gravity ﬁeld estimated in Genova et al. [2019], ε g = 1.968±
 0.027 arcmin. This is substantially smaller than the two mesurements of the obliquity of the
-spin-symmetry axis of the mantle: ε m = 2.04 ± 0.08 arcmin [Margot et al., 2012] and εm =
+spin-symmetry axis of the mantle: ε m = 2.04 ± 0.08 arcmin [Margot et al., 2012] and ε m =
 2.029±0.085 arcmin [Stark et al., 2015a], although all three measurements remain consistent
 with one another within their error estimates. In their interpretation, Genova et al. [2019] sug-
 gest that the diﬀerent central value of the obliquity that they obtain (smaller by ∼ 0.07 ar-

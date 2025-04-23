@@ -152,12 +152,12 @@ C qj,k P qj + D qj,k T qj .
 (4)
 
 The weight factor H ω (see eq A8) is a function of frequency, capturing information about the extent of coupling between
-the two modes [n, k] and [n , k ], where n and n are the radial orders of the modes, and k = |k| and k = |k | = |k + q|.
+the two modes [n, k] and [n , k ], where n and n are the radial orders of the modes, and k = |k| and k = |k| = |k + q|.
 The spectral proﬁle of the mode (see eq A9) is approximated using a Lorentzian (Anderson et al. 1990). The more the
 Lorentzians of the two modes overlap, the stronger the coupling. Finally, the real terms C qj,k and D qj,k are poloidal
 and toroidal ﬂow sensitivity kernels respectively, that allow us to relate the ﬂows in question to the measurements
-and are derived from the solar model see Appendix A. They possess the symmetry relation: Cqj,k = C−qj,−k and
-Dqj,k = D−qj,−k (see eq A6). The kernels, as ﬂows, are expressed on the basis fj (z).
+and are derived from the solar model see Appendix A. They possess the symmetry relation: C qj,k = C −qj,−k and
+D qj,k = D −qj,−k (see eq A6). The kernels, as ﬂows, are expressed on the basis fj (z).
 
 1.2. Least-squares of cross-correlation
 
@@ -247,10 +247,10 @@ of mode frequencies start deviating from the observed dispersion relation for th
 such as its amplitude, frequency and linewidth, and consequently in B k,q in our case. We use the same noise model
 as in H21, which was motivated by the above discussion,
 
-G k,q ≡ |B k,q | 2,
+G k,q ≡ |B k,q | 2 ,
 (9)
 
-where, unlike H21, we again sum over ±ω. G k,q is real, with the symmetry relation G k,q = G −k,−q (see Appendix A
+where, unlike H21, we again sum over ±ω. Gk,q is real, with the symmetry relation Gk,q = G −k,−q (see Appendix A
 for explanation).
 
 2. DATA ANALYSIS
@@ -334,7 +334,7 @@ ranges of kR .
 3. INVERSION
 
 The ﬁnal step to producing near-surface ﬂow maps in Cartesian mode-coupling is to invert the measurements
-Bk,q from the linear relation in eq 6. We describe inversion using regularized-least-squares (RLS) method here and
+B k,q from the linear relation in eq 6. We describe inversion using regularized-least-squares (RLS) method here and
 leave Subtractive Optimally Localized Averages (SOLA, Pijpers & Thompson 1994) for Appendix B. The methods
 complement each other (see Sekii 1997), where RLS tries to minimize the misﬁt between data and model, whereas
 SOLA gives better localization. For total number of modes M , RLS scales as M xJ where J is the number of basis
@@ -400,10 +400,10 @@ norm minimization (second term). Under-regularizing can lead to a solution U tha
 data and on the other hand, over-regularizing may smooth or damp the solution more than necessary. Including this
 regularization makes the problem better conditioned and is now deﬁned as
 
-U = (KΛ−1K + λI)−1KΛ−1B,
+U = (K Λ−1 K + λI) −1 K Λ −1B,
 (13)
 
-where I is the identity matrix for L1 regularization. The knee-point of the L-curve (Hansen 1992), a curve formed
+where I is the identity matrix for L 1 regularization. The knee-point of the L-curve (Hansen 1992), a curve formed
 by plotting ||U||2 vs ||KU − B||2 for diﬀerent values of λ (see right panel of Figure 2), is usually chosen as the
 regularization parameter. After successfully inverting for U, we reconstruct the ﬂow using eq 3. Results for poloidal
 ﬂow Pq are shown in Figure 3.
@@ -452,13 +452,13 @@ FLCT code. v x and v y are then computed for consecutive pairs of images and are
 For mode-coupling, horizontal divergence (hereafter div) and radial vorticity (hereafter curl) are computed by
 substituting P and T from eq 3 into eq 2 as below -
 
-u u u(q, z) = −∇2 P e z + ∇(∂ z P ) + ∇h T ×ez ,
+u u u(q, z) = −∇2 P ez + ∇(∂ z P ) + ∇ h T ×e z ,
 
 = −(0, 0, ∂ 2
 x P + ∂ 2
-y P + ∂2
-z P ) + (∂x∂z P, ∂y ∂z P, ∂2
-z P ) + (∂y T, −∂xT, 0).
+y P + ∂ 2
+z P ) + (∂ x ∂z P, ∂ y ∂z P, ∂2
+z P ) + (∂ y T, −∂xT, 0).
 (15)
 
 Setting ∂2
@@ -492,7 +492,7 @@ Mani et al.
 
 Figure 4. Left: Divergence-ﬂow power spectrum |div| 2 , from eqn 16, obtained from inversion using all the couplings. The
 power-spectrum is then ﬁltered with a bandpass centered around qR = 150 (middle panel). The resulting spectra is shown in
-the right panel. The units of |div| 2 are in s −2 . For illustration, we show the action of the ﬁlter on the power-spectrum |div| 2
+the right panel. The units of |div| 2 are in s −2 . For illustration, we show the action of the ﬁlter on the power-spectrum |div|2
 since it is a real quantity, but recall that it is the Fourier-space ﬂow div (a complex quantity) on which we apply the ﬁlter.
 
 For LCT, we ﬁrst apply a Gaussian smoothing to vx and vy to average over small-scale features; the extent of
@@ -633,10 +633,10 @@ for LCT (top row), and mode-coupling inversion through RLS using (a) f-f couplin
 qR = 100, and using (b) p1-p1 coupling (bottom row), bandpass ﬁltered around qR = 150. We cut edges out from the ﬂow
 maps and compare a circular region of diameter ≈175 Mm.
 
-(a) qR = 200, f-f + p 1 -p1 + p2 -p2
-(b) qR= 250, f-f + p1-p1 + p2-p2
+(a) qR = 200, f-f + p 1 -p 1 + p 2-p 2
+(b) qR = 250, f-f + p 1 -p1 + p 2 -p 2
 
-Figure 7. Real-space divergence ﬂows (left column, in units of 10−5s−1) and radial vorticity (right column, in units of 10−6s−1)
+Figure 7. Real-space divergence ﬂows (left column, in units of 10 −5 s −1 ) and radial vorticity (right column, in units of 10 −6 s −1 )
 for LCT (top row), and mode-coupling inversion through RLS using all the couplings (bottom row), bandpass ﬁltered around
 (a) qR= 200, and (b) qR= 250. We cut edges out from the ﬂow maps and compare a circular region of diameter ≈175 Mm.
 
@@ -790,19 +790,19 @@ Mani et al.
 
 Express the mode eigenfunction describing oscillations in the Cartesian domain by (see Woodard 2006)
 
-ξk ≡ ξnk(z) = i kHnk (z)e z + ẑV nk (z),
+ξ k ≡ ξ nk (z) = i kH nk (z)e z + ẑV nk (z),
 (A4)
 
 where H and V are real-valued functions; n and n are dropped for compactness of notation. Then the coupling of
-two modes ξ k and ξ k (k = k + q), by the ﬂow perturbation operator δLσ
+two modes ξ k and ξ k (k = k + q), by the ﬂow perturbation operator δL σ
 q , denoted by coupling integral Λ k
-k(σ), is
+k (σ), is
 given by
 
 Λ k
 k (σ) ≡ dx (δL σ
 q ξ k ) · ξ ∗
-k = dx− 2iωρ
+k = dx − 2iωρ
 
 j
 
@@ -812,16 +812,16 @@ k + V k V ∗
 k )
 
 − k · q f j P σ
-jq + k · (q×ez ) f j T σ
+jq + k · (q×e z ) f j T σ
 jq ( k · k H k H ∗
-k + V kV ∗
+k + V k V ∗
 k )
 (A5)
 
 We desire to linearly relate the coupling integral in the above equation to the ﬂows P and T , through poloidal and
-toroidal sensitivity kernels, Cqj,k and Dqj,k respectively. Hence, they are given by
+toroidal sensitivity kernels, C qj,k and D qj,k respectively. Hence, they are given by
 
-Cqj,k =dz ρq2 fj (k · kHkH∗
+Cqj,k = dz ρq2 fj (k · kHkH∗
 k+ Vk V ∗
 k)
 
@@ -944,15 +944,15 @@ k
 
 α k,zo B k,q allows for an average value of the ﬂow P q (z) to be estimated at the depth z o . To obtain the coeﬃcients
 
-α k,zo, it is assumed that a set of sensitivity kernels K k,q (z) for the mode q can be summed up coherently to give an
-’averaging kernel’ that is localized at the depth zo . Conventionally, a Gaussian centered at z o and a width ∆ is chosen
+α k,zo , it is assumed that a set of sensitivity kernels K k,q (z) for the mode q can be summed up coherently to give an
+’averaging kernel’ that is localized at the depth z o . Conventionally, a Gaussian centered at zo and a width ∆ is chosen
 which the averaging kernel should resemble after performing inversion.
 
 B.1. Kernels in the integral form
 
-Since the kernels in eq A6 are manifest as coeﬃcients on a basis f j (z), we ﬁrst derive kernels that can be expressed
+Since the kernels in eq A6 are manifest as coeﬃcients on a basis fj (z), we ﬁrst derive kernels that can be expressed
 as a function of depth z (see Figure 8). It is convenient to derive in matrix form. Thus, with the following deﬁnitions:
-P ≡ Pq (z), p ≡ Pqj , F ≡ fj (z), B ≡ Bk,q C ≡ Cqj,k and K ≡ Kk,q (z), we write (assume only poloidal ﬂow for
+P ≡ Pq (z), p ≡ Pqj , F ≡ f j (z), B ≡ Bk,q C ≡ Cqj,k and K ≡ Kk,q (z), we write (assume only poloidal ﬂow for
 simplicity, the same derivations hold true for toroidal ﬂow as well)
 
 P = F p
@@ -1039,15 +1039,15 @@ Setting ∂X
 
 A{α} = v,
 
-{α} =A + µI
+{α} = A + µI
 
 −1
 
 v,
 (B18)
 
-where the square matrix A =dz K k,q (z)K k ,q (z) and v = dz Kk,q (z)T (z, zo). Here, kis just a dummy index for
-denoting elements in the matrix A, (k= k+q). In the last line of eq B18, we introduce regularization using an Identity
+where the square matrix A =dz K k,q (z)K k ,q (z) and v =dz K k,q (z)T (z, z o). Here, kis just a dummy index for
+denoting elements in the matrix A, (k = k+q). In the last line of eq B18, we introduce regularization using an Identity
 matrix I, with the regularization parameter µ - purpose being the same as that described in section 3.1. Obtaining
 α thus becomes a highly expensive computationally for very large number of modes (see section 3). Substitute α
 obtained from eq B18 into last line of eq B13, and

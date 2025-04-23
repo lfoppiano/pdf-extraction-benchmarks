@@ -239,9 +239,7 @@ Contents
 
 1 Introduction
 
-
 2 Convolutional Neural Networks
-
 
 2.1 Linear Image Filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -288,7 +286,6 @@ Contents
 2.6 Accuracy boosting techniques . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 3 Topology Learning
-
 
 3.1 Growing approaches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -349,13 +346,11 @@ xi
 
 4 Hierarchical Classiﬁcation
 
-
 4.1 Advantages of classiﬁer hierarchies . . . . . . . . . . . . . . . . . . . . . . 
 
 4.2 Clustering classes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 5 Experimental Evaluation
-
 
 5.1 Baseline Model and Training setup . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -399,12 +394,9 @@ xi
 
 6 Conclusion and Outlook
 
-
 A Figures, Tables and Algorithms
 
-
 B Hyperparameters
-
 
 B.1 Preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -421,7 +413,6 @@ B.6 Network Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 B.7 Regularization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 C Calculating Network Characteristics
-
 
 C.1 Parameter Numbers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -446,7 +437,6 @@ C.3 Memory Footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 D Common Architectures
 
-
 D.1 LeNet-5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 D.2 AlexNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -459,18 +449,13 @@ D.5 Inception-v4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 E Datasets
 
-
 F List of Tables
-
 
 G List of Figures
 
-
 H Bibliography
 
-
 I Glossary
-
 
 
 
@@ -486,7 +471,7 @@ applications which include one of the following six problems in computer vision 
 
 problems:
 
-• Classiﬁcation:1 The algorithm is given an image and k possible classes. The task is
+• Classiﬁcation: 1 The algorithm is given an image and k possible classes. The task is
 
 to decide which of the k classes the image belongs to. For example, an image from
 
@@ -863,13 +848,13 @@ Traditional CNNs have three important building tools:
 
 2.2.1. Convolutional Layers
 
-Convolutional layers take several feature maps as input and produce n feature maps1 as
+Convolutional layers take several feature maps as input and produce n feature maps 1 as
 
 output, where n is the number of ﬁlters in the convolution layer. The ﬁlter weights of
 
 the linear convolutions are the parameters which are adapted to the training data. The
 
-number n of ﬁlters as well as the ﬁlter’s size kw × kh are hyperparameters of convolutional
+number n of ﬁlters as well as the ﬁlter’s size kw × k h are hyperparameters of convolutional
 
 layers. Sometimes, it is denoted as n@kw × kh. Although the ﬁlter depth is usually omitted
 
@@ -914,13 +899,13 @@ if only the ﬂattened output is compared.
 
 This is easier to see when the ﬁltering operation is denoted formally:
 
-o(i)(x) = b +
+o (i) (x) = b +
 
 k
 
 j=1
 
-wij · xj
+w ij · x j
 with i ∈ { 1, . . . , w } × { 1, . . . , h } × { 1, . . . , d } [2.1]
 
 o (x,y,z) (I) = b +
@@ -944,7 +929,7 @@ d
 
 ic=1
 
-F z (i x , i y , i c ) · I(x + i x , y + iy , i c )
+F z (i x , i y , i c ) · I(x + i x , y + i y , i c )
 [2.2]
 
 with a bias b ∈ R, x ∈ { 1, . . . , w } , y ∈ { 1, . . . , h } and z ∈ { 1, . . . , d }
@@ -1004,13 +989,13 @@ s = 1 to input data of size width × height with three channels.
 
 2.2. CNN Layer Types
 
-A convolutional layer with n ﬁlters of size kw × kh and SAME padding after d(i−1) feature
+A convolutional layer with n ﬁlters of size k w × k h and SAME padding after d (i−1) feature
 
-maps of size sx × sy has n · d(i−1) · (kw · kh) parameters if no bias is used. In contrast, a fully
+maps of size s x × s y has n · d (i−1) · (k w · k h ) parameters if no bias is used. In contrast, a fully
 
 connected layer which produces the same output size and does not use a bias would have
 
-n · d (i−1) · (sx × s y ) 2 parameters. This means a convolutional layer has drastically fewer
+n · d (i−1) · (s x × s y ) 2 parameters. This means a convolutional layer has drastically fewer
 parameters. One the one hand, this means it can learn less complex decision boundaries. On
 
 the other hand, it means fewer parameters have to be learned and hence the optimization
@@ -1085,7 +1070,7 @@ a∈A a
 LeNet-5 [LBBH98] and [KSlB + 10]
 
 2 pooling
-a∈A a2
+a∈A a 2
 [Le13]
 
 Stochastic pooling
@@ -1103,7 +1088,7 @@ a j ∈A aj . This assumes the activations a i are non-negative.
 Pooling is applied for three reasons: To get local translational invariance, to get invariance
 
 against minor local changes and, most important, for data reduction to 1
-s2 th of the data by
+s 2 th of the data by
 using strides of s > 1.
 
 See Figure 2.3 for a visualization of max pooling.
@@ -1218,24 +1203,24 @@ for all other dimensions i = 1, . . . , d(i−1).
 
 Dropout is a technique used to prevent overﬁtting and co-adaptations of neurons by setting
 
-the output of any neuron to zero with probability p. It was introduced in [HSK+12] and is
+the output of any neuron to zero with probability p. It was introduced in [HSK + 12] and is
 
-well-described in [SHK+14].
+well-described in [SHK + 14].
 
 A Dropout layer can be implemented as follows: For an input in of any shape s, a tensor of
 
-the same shape D ∈ { 0, 1 } s is sampled, where each element di is sampled independently
+the same shape D ∈ { 0, 1 } s is sampled, where each element d i is sampled independently
 
 from a Bernoulli distribution. The results are element-wise multiplied to calculate the
 
 output out of the Dropout layer:
 
-out = Din
-with di ∼ B(1, p)
+out = D in
+with d i ∼ B(1, p)
 
-whereis the Hadamard product
+where is the Hadamard product
 
-(AB)i,j := (A)i,j (B)i,j
+(AB) i,j := (A) i,j (B) i,j
 
 Hence every value of the input gets set to zero with a dropout probability of p. Typically,
 
@@ -1286,14 +1271,14 @@ input features might drastically change over time.
 
 One way to approach this problem is by normalizing mini-batches as described in [IS15]. A
 
-Batch Normalization layer with d-dimensional input x = (x (1), . . . , x (d)) is ﬁrst normalized
+Batch Normalization layer with d-dimensional input x = (x (1) , . . . , x (d) ) is ﬁrst normalized
 
 point-wise to
 
 x(k) =
 x (k) − x(k)
 
-s [x (k) ]2 + ε
+s [x (k) ] 2 + ε
 
 with x(k) = 1
 
@@ -1328,7 +1313,7 @@ is the activation of neuron k for
 
 training sample i.
 
-Additionally, for each activation x(k) two parameters γ(k), β(k) are introduced which scale
+Additionally, for each activation x (k) two parameters γ (k) , β (k) are introduced which scale
 
 and shift the feature:
 
@@ -1438,9 +1423,9 @@ Two common ways to add more parameters to neural networks are increasing their d
 
 by adding more layers or increasing their width by adding more neurons / ﬁlters. Inception
 
-blocks [AM15] implicitly started a new idea which was explicitly described in [XGD +16] as
+blocks [AM15] implicitly started a new idea which was explicitly described in [XGD + 16] as
 
-“ResNeXt block”: Increasing the cardinality C ∈ N≥1. By cardinality, the authors describe
+“ResNeXt block”: Increasing the cardinality C ∈ N ≥1 . By cardinality, the authors describe
 
 the concept of having C small convolutional networks with the same topology but diﬀerent
 
@@ -1562,7 +1547,7 @@ for details). In order to reduce the number of feature maps while still keeping 
 
 relevant information as possible in the network, a convolutional layer i with k i ﬁlters of
 
-the shape 1 × 1 × ki−1 is added. The number of ﬁlters ki directly controls the number of
+the shape 1 × 1 × k i−1 is added. The number of ﬁlters ki directly controls the number of
 
 generated feature maps.
 
@@ -1650,7 +1635,7 @@ are not covered by the training set and thus indicate the need to collect more d
 
 A confusion matrix is a matrix (c) ij ∈ N K×K
 ≥0 , where K ∈ N ≥2 is the number of classes,
-which contains all correct and wrong classiﬁcations. The item cij is the number of times
+which contains all correct and wrong classiﬁcations. The item c ij is the number of times
 
 items of class i were classiﬁed as class j. This means the correct classiﬁcation is on the
 
@@ -1663,7 +1648,7 @@ K
 j=1 c ij is the
 total number of samples which were evaluated and
 
-i=1 cii
+i=1 c ii
 
 K
 i=1
@@ -1898,8 +1883,8 @@ the confusion matrix c which denotes at c ij the number of times the real class 
 
 was predicted. This means the diagonal contains the number of correct predictions. For
 
-the following, let ti =k
-j=1 cij be the number of training samples for class i. The most
+the following, let t i = k
+j=1 c ij be the number of training samples for class i. The most
 common quality criterion is accuracy:
 
 accuracy(c) =
@@ -2194,13 +2179,13 @@ performance.
 
 Filters can be compared with the k-translation correlation as introduced in [ZCZL16]:
 
-ρk(Wi, Wj) =
+ρ k (W i , W j ) =
 max
 
-(x,y)∈{−k,...,k}2\(0,0)
+(x,y)∈{−k,...,k} 2 \(0,0)
 
-Wi, T (Wj, x, y)f
-Wi2Wj2
+Wi , T (W j , x, y) f
+W i 2 W j 2
 ∈ [−1, 1],
 
 where T (·, x, y) denotes the translation of the ﬁrst operand by (x, y), with zero padding at
@@ -2384,7 +2369,7 @@ V p − V (E p,o − Ēo )
 
 where O is the set of output nodes, T is the training set, V p is the candidate neurons
 
-activation for a training pattern p. Ep,o is the residual output error at node o for
+activation for a training pattern p. E p,o is the residual output error at node o for
 
 pattern p. V and Ēo are averaged values over all elements of T . This step is ﬁnished
 
@@ -2421,7 +2406,7 @@ ij )
 
 3.2. Pruning approaches
 
-Hence every connection has two learned parameters: µij and σ2
+Hence every connection has two learned parameters: µ ij and σ 2
 ij .
 
 The key idea of Meiosis networks is to allow neurons to perform Meiosis, which is cell
@@ -2430,7 +2415,7 @@ division. A node j is splitted, when the random part dominates the value of the 
 
 weights:
 
-i σij
+i σ ij
 i µ ij
 
 > 1 and
@@ -2493,7 +2478,7 @@ the eﬀect on the objective function of deleting k. The authors call the eﬀec
 
 3. Topology Learning
 
-of parameter k the saliency sk. The parameters with the lowest saliency are deleted, which
+of parameter k the saliency s k . The parameters with the lowest saliency are deleted, which
 
 means they are set to 0 and are not updated anymore.
 
@@ -2501,7 +2486,7 @@ A follow-up method called Optimal Brain Surgeon [HSW93] claims to choose the wei
 
 in a much better way. This requires, however, to calculate the inverse Hessian matrix
 
-H −1 ∈ R n×n where n ∈ N is typically n > 10 6 .
+H −1 ∈ R n×n where n ∈ N is typically n > 106.
 
 A much simpler and computationally cheaper pruning criterion is the weight magnitude.
 
@@ -2623,7 +2608,7 @@ Designing a classiﬁer for a new dataset is hard for two main reasons: Many des
 
 not clearly superior to others and evaluating one design choice takes much time. Especially
 
-CNNs are known to take several days [KSH12, SLJ +15] or even weeks [SZ14] to train.
+CNNs are known to take several days [KSH12, SLJ + 15] or even weeks [SZ14] to train.
 
 Additionally, some methods for analyzing a dataset become harder to use with more classes
 
@@ -2913,7 +2898,7 @@ Street View. The images are in color and of size 32 px × 32 px. The state of th
 
 5. Experimental Evaluation
 
-achieves an accuracy of 98.41 % [HLW16]. According to [NWC+ 11a], human performance
+achieves an accuracy of 98.41 % [HLW16]. According to [NWC + 11a], human performance
 
 is at 98.0 %.
 
@@ -3956,17 +3941,17 @@ Filter count
 Total
 Baseline New parameters
 
-m9
+m 9
 9
 64
 638
 5 978 566
-m9
+m 9
 9
 64
 974
 8 925 622
-m11
+m 11
 11
 512 3786
 5 982 698
@@ -4331,7 +4316,7 @@ in one epoch. Those updates, however, are based on fewer samples of the dataset.
 
 Hence the gradients of diﬀerent mini-batches can noticeably diﬀer. In the literature,
 
-this is referred to as gradient noise [KMN+ 16].
+this is referred to as gradient noise [KMN + 16].
 
 • Training time per epoch: The smaller the batch size, the higher the training time
 
@@ -4617,7 +4602,7 @@ x
 2 + 1
 if x > −2
 
-This function is similar to SReLUs as introduced in [JXF+16]. The diﬀerence is that S2ReLU
+This function is similar to SReLUs as introduced in [JXF + 16]. The diﬀerence is that S2ReLU
 
 does not introduce learnable parameters. The S2ReLU was designed to be symmetric, be
 
@@ -4760,7 +4745,7 @@ ReLU
 σ = 0.99
 81.81 %
 64.57 %
-ReLU−
+ReLU −
 76.01 %
 σ = 2.31
 62.87 %
@@ -5042,13 +5027,13 @@ datasets. Those errors severely harm the training. By smoothing the labels error
 
 could be relaxed.
 
-10 models msmooth are trained with the α = 0.5 smoothed labels from the prediction
+10 models m smooth are trained with the α = 0.5 smoothed labels from the prediction
 
 of an ensemble of 10 baseline models. The mean accuracy of the models trained on the
 
 smoothed training set labels was 63.61 % (+0.23 %) and the standard deviation was σ = 0.72
 
-(+0.17 %). The ensemble of 10 msmooth models achieved 64.79 % accuracy (+0.09 %). Hence
+(+0.17 %). The ensemble of 10 m smooth models achieved 64.79 % accuracy (+0.09 %). Hence
 
 the eﬀect of this kind of label smoothing on the ﬁnal accuracy is questionable.
 
@@ -5407,7 +5392,7 @@ For example, all decisions about hyperparameters in this thesis are based on CIF
 
 but the network is ﬁnally trained and evaluated with the same hyperparameters on all
 
-datasets.2 The validation set can hence be removed if early stopping is removed. Instead,
+datasets. 2 The validation set can hence be removed if early stopping is removed. Instead,
 
 the validation data is used in a ﬁrst run to determine the number of epochs necessary for
 
@@ -5765,7 +5750,7 @@ Figure A.2.: The distribution of bias weights of a model without batch normaliza
 CIFAR-100.
 
 Algorithm 1 Simulated Annealing for minimizing Equation (4.1).
-Require: C ∈ N n×n, steps ∈ N, T ∈ R+, c ∈ (0, 1)
+Require: C ∈ N n×n , steps ∈ N, T ∈ R + , c ∈ (0, 1)
 
 procedure SimulatedAnnealing(C, steps, T , c)
 bestScore ← accuracy(C)
@@ -5994,7 +5979,7 @@ Augmentation Factor Used by
 
 Horizontal ﬂip
 2
-[KSH12, WYS+15]
+[KSH12, WYS + 15]
 
 Vertical ﬂip
 2
@@ -6009,8 +5994,8 @@ Scaling
 [DSRB14]
 
 Crops
-322 = 1024
-[KSH12, WYS+15]
+32 2 = 1024
+[KSH12, WYS +15]
 
 Shearing
 [Gra15]
@@ -6181,7 +6166,7 @@ A slight variation of SGD is mini-batch gradient descent with the mini-batch B (
 
 mini-batch sizes are |B| ∈ { 32, 64, 128, 256, 512 }, e.g. [ZF14]). Larger mini-batch sizes
 
-lead to sharp minima and thus poor generalization [KMN+16]. Smaller mini-batch sizes
+lead to sharp minima and thus poor generalization [KMN + 16]. Smaller mini-batch sizes
 
 lead to longer training times due to computational overhead and to more training steps due
 
@@ -6507,14 +6492,14 @@ as it produces a probability distribution. See Figure B.1 for a plot of some of 
 x
 
 y
-ϕ1(x) = 1
+ϕ 1 (x) = 1
 
-1+e−x
+1+e −x
 
-ϕ2(x) = tanh(x)
+ϕ 2 (x) = tanh(x)
 ϕ 3 (x) = max(0, x)
-ϕ 4 (x) = log(ex + 1)
-ϕ5 (x) = max(x, e x − 1)
+ϕ 4 (x) = log(e x + 1)
+ϕ 5 (x) = max(x, e x − 1)
 
 Figure B.1.: Activation functions plotted in [−2, +2]. tanh and ELU are able to produce negative
 numbers. The image of ELU, ReLU and Softplus is not bound on the positive side,
@@ -6526,7 +6511,7 @@ Regularization techniques aim to make the ﬁtted function smoother and reduce o
 
 Regularization techniques are:
 
-•1,2, and Orthogonality regularization: See Appendix B.4
+• 1 ,2, and Orthogonality regularization: See Appendix B.4
 
 • Max-norm regularization (e.g. used ins [SHK+14])
 
@@ -6558,11 +6543,11 @@ C.1. Parameter Numbers
 
 due to the bias.
 
-• A convolutional layer i with ki ﬁlters of size n × m being applied to k i−1 feature maps
+• A convolutional layer i with k i ﬁlters of size n × m being applied to k i−1 feature maps
 
-has k i · k i−1(n · m + 1) parameters. The +1 is due to the bias.
+has k i · k i−1 (n · m + 1) parameters. The +1 is due to the bias.
 
-• A fully connected layer with n nodes after k feature maps of size m1 × m2 has
+• A fully connected layer with n nodes after k feature maps of size m 1 × m 2 has
 
 n · (k · m1 · m2 + 1) parameters.
 
@@ -7305,7 +7290,7 @@ MNIST
 —
 0.21 %
 error
-[WZZ+13]
+[WZZ + 13]
 
 HASYv2
 TF-CNN
@@ -7436,7 +7421,6 @@ F. List of Tables
 
 2.1 Pooling types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-
 5.1 Baseline architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 5.2 Baseline model evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
@@ -7499,7 +7483,6 @@ D.4 Inception-v4 network . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 
 
-
 E.1 Image Benchmark datasets . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
 
 E.2 State of the Art results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
@@ -7544,12 +7527,9 @@ G. List of Figures
 
 2.1 Application of a single image ﬁlter (Convolution) . . . . . . . . . . . . . . .
 
-
 2.2 Application of a convolutional layer . . . . . . . . . . . . . . . . . . . . . . .
 
-
 2.3 Max pooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
 
 2.4 ResNet module . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
@@ -7609,7 +7589,6 @@ A.2 Bias weight distribution without BN . . . . . . . . . . . . . . . . . . . . 
 
 
 
-
 77
 78
 85
@@ -7654,7 +7633,7 @@ clustering structure,” in ACM Sigmod record, vol. 28, no. 2. ACM, 1999, pp.
 
 49–60.
 
-[ADG+16]
+[ADG + 16]
 M. Andrychowicz, M. Denil et al., “Learning to learn by gradient descent by
 
 gradient descent,” in Advances in Neural Information Processing Systems 29
@@ -7791,7 +7770,7 @@ https://arxiv.org/abs/1410.0759
 104
 
 
-[DBB+01]
+[DBB + 01]
 
 C. Dugas, Y. Bengio et al., “Incorporating second-order functional
 
@@ -8042,7 +8021,7 @@ J. Han, J. Pei, and M. Kamber, Data mining: concepts and techniques.
 
 Elsevier, 2011.
 
-[HPN +16]
+[HPN + 16]
 S. Han, J. Pool et al., “DSD: Regularizing deep neural networks with
 
 dense-sparse-dense training ﬂow,” arXiv preprint arXiv:1607.04381, Jul. 2016.
@@ -8126,7 +8105,7 @@ training by reducing internal covariate shift,” arXiv preprint arXiv:1502.0316
 
 Feb. 2015. [Online]. Available: https://arxiv.org/abs/1502.03167
 
-[JXF+ 16]
+[JXF + 16]
 X. Jin, C. Xu et al., “Deep learning with s-shaped rectiﬁed linear activation
 
 units,” in Thirtieth AAAI Conference on Artiﬁcial Intelligence, Dec. 2016.
@@ -8448,7 +8427,7 @@ unsupervised feature learning,” in NIPS workshop on deep learning and
 unsupervised feature learning, vol. 2011, no. 2, 2011, p. 5. [Online]. Available:
 http://uﬂdl.stanford.edu/housenumbers/nips2011_housenumbers.pdf
 
-[NWC+11b] Y. Netzer, T. Wang et al., “The street view house numbers (SVHN) dataset,”
+[NWC + 11b] Y. Netzer, T. Wang et al., “The street view house numbers (SVHN) dataset,”
 
 2011. [Online]. Available: http://uﬂdl.stanford.edu/housenumbers/
 

@@ -210,11 +210,11 @@ d log P the
 
 Baraﬀe et al.: Local heating due to convective overshooting and the solar modelling problem
 
-temperature gradient and ∇ad = d log T
-d log P |S the adiabatic gradient.
+temperature gradient and ∇ ad = d log T
+d log P | S the adiabatic gradient.
 The initial stratiﬁcation below the convective boundary (located
-at r = 0.6734 × Rstar for this speciﬁc stellar model) is set by
-the stable radiative gradient, ∇rad (see the dashed black line be-
+at r = 0.6734 × R star for this speciﬁc stellar model) is set by
+the stable radiative gradient, ∇ rad (see the dashed black line be-
 low the convective boundary in Fig. 1). B21 show that, as a re-
 sult of the local heating below the convective boundary charac-
 terised by the bump in temperature diﬀerence ∆T/T 0 displayed
@@ -242,7 +242,7 @@ deﬁned by
 
 A =
 1
-Γ1
+Γ 1
 
 d ln P
 d ln r
@@ -364,9 +364,9 @@ g(r) = sin{[(r − rmid)/(rCB − rmid)]a × π/2}.
 
 Baraﬀe et al.: Local heating due to convective overshooting and the solar modelling problem
 
-For rov ≤ r < rmid, we use
+For r ov ≤ r < r mid , we use
 
-∇ = ∇rad − h(r)∇ad,
+∇ = ∇ rad − h(r)∇ ad ,
 (4)
 
 with
@@ -390,16 +390,16 @@ b.
 3.2.1. Thermal equilibrium models
 
 The details of the procedure for the ﬁrst method are the follow-
-ing. We calculate the evolution of a 1 Mmodel with an initial
+ing. We calculate the evolution of a 1 M model with an initial
 helium mass fraction of 0.28, metallicity Z = 0.02, and a mix-
 ing length l mix = 1.9H P . We use a reference model that is in
-thermal equilibrium2 and has the luminosity and radius of the
+thermal equilibrium 2 and has the luminosity and radius of the
 current Sun. Starting from this reference model, the tempera-
 ture gradient is modiﬁed over a prescribed depth to mimic the
 impact of overshooting according to the hydrodynamical sim-
 ulations described in Sect. 2. We adopt the prescription given
-by Eqs. (2)-(5) over a distance d ov below the convective bound-
-ary. We show the results in Fig. 2 for αov = 0.15 and αov= 0.20.
+by Eqs. (2)-(5) over a distance dov below the convective bound-
+ary. We show the results in Fig. 2 for α ov = 0.15 and αov = 0.20.
 These overshooting widths are in good agreement with the maxi-
 mal depth reached by downﬂows below the convective boundary
 predicted by the hydrodynamical simulations for the solar-like

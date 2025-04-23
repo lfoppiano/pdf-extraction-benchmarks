@@ -207,7 +207,7 @@ from the SMBH. For the collision timescale, we assume the
 BH is on a circular orbit. The timescales depend on the
 density, so we adopt a range of density proﬁles, bounded by
 α = 1 (dashed curve) to α = 2 (dark, solid curve). The dark
-blue line represents the time for a 105 M BH to merge with
+blue line represents the time for a 10 5 M BH to merge with
 the SMBH through GW emission.
 
 observationally motivated distributions in Section 2.9,
@@ -225,18 +225,18 @@ locity dispersion, and A is the cross-section. We use the
 collision timescale from Rose et al. (2020):
 
 t −1
-coll = πn(a • )σ(a •)
+coll = πn(a• )σ(a• )
 
-× f 1 (e •)r 2
-c + f 2 (e •)r c
+× f 1 (e • )r 2
+c + f2 (e • )r c
 
-2G(mBH + m )
-σ(a• )2
+2G(m BH + m )
+σ(a • ) 2
 . (1)
 
-where G is the gravitational constant and rc is the sum
+where G is the gravitational constant and r c is the sum
 of the radii of the interacting objects, a black hole with
-mass mBH and a star with mass m. Detailed in Rose
+mass m BH and a star with mass m. Detailed in Rose
 et al. (2020), f1(e•) and f2(e•) account for the eﬀect of
 the eccentricity of the BH’s orbit about the SMBH on
 the collision rate, while n and σ are simply evaluated
@@ -335,7 +335,7 @@ increase the BH’s mass by ∆m, the mass that the BH is
 expected to accrete in a single collision (see Section 2.4
 for details). We recalculate the collision timescale using
 the updated BH mass and repeat this process until the
-time elapsed equals the simulation time of 10 Gyr3 .
+time elapsed equals the simulation time of 10 Gyr 3.
 
 2.4. Mass Growth
 
@@ -455,7 +455,7 @@ shorter collision timescales. However, Bondi-Hoyle-
 Lyttleton accretion becomes important closer to the
 SMBH, where the velocity dispersion is large compared
 with the stars’ escape velocity, and curtails the mass
-growth for BHs in this region. Outside of 10−2 pc, a BH
+growth for BHs in this region. Outside of 10 −2 pc, a BH
 consumes the star’s entire mass: the accretion-limited
 ∆m governed by Eq. (7) is greater than or equal to the
 star’s mass.
@@ -575,7 +575,7 @@ merger times of these BHs.
 In our simulations, we assume a BH has merged with
 the SMBH when the condition t GW < t elapsed is met.
 When this condition is satisﬁed, we terminate mass
-growth through collisions for that BH.4
+growth through collisions for that BH. 4
 
 2.7. IMBH growth
 
@@ -669,7 +669,7 @@ to segregate inwards in the GN (e.g., Shapiro &
 Marchant 1978; Cohn & Kulsrud 1978; Morris 1993;
 Miralda-Escudé & Gould 2000; Baumgardt et al. 2004).
 They sink toward the SMBH on the mass segregation
-timescale, tseg ≈M∗/mBH × trelax (e.g., Spitzer 1987;
+timescale, t seg ≈M∗/mBH × trelax (e.g., Spitzer 1987;
 Fregeau et al. 2002; Merritt 2006), which is typically an
 order of magnitude smaller than the relaxation timescale
 plotted in Figure 1.
@@ -780,7 +780,7 @@ Despite the substantially reduced accretion, BHs in the mass gap still form.
 As the stellar mass BH collides with a star, the BH
 will grow in mass. The increase may equal star’s en-
 tire mass if the relative velocity is smaller than the es-
-cape velocity from the BH at 1 R. However, near the
+cape velocity from the BH at 1 R . However, near the
 SMBH, the velocity dispersion may be larger than the
 escape velocity from the BH at the star’s radius. In this
 limit, the BH captures a “tunnel” of material through

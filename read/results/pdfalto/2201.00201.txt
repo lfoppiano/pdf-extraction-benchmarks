@@ -269,9 +269,9 @@ likely negligible compared with those associated with age.
 3. Results
 
 Panel (a) of Fig. 1 shows a comparison between model predic-
-tions and observations in the PFM –log(τ/yr) plane. The former
+tions and observations in the P FM –log(τ/yr) plane. The former
 are displayed by a density map showing the expected number
-NFM of LPVs pulsating in the FM in each period-age bin, nor-
+N FM of LPVs pulsating in the FM in each period-age bin, nor-
 malized to maximum. Model predictions are in good agreement
 with data derived from observations (i.e., individual LPVs in
 clusters, represented by symbols), and they show that the pe-
@@ -400,7 +400,7 @@ AGB (the stage during which the FM is normally excited), the
 envelope expansion accelerates, while the period becomes pro-
 gressively less sensitive to changes in radius (see Appendix C).
 In particular, the slope of the period-radius relation decreases
-sharply at Pb = P(R b). The FM period distribution is roughly
+sharply at P b = P(R b ). The FM period distribution is roughly
 symmetric around that value, but at its short-period side, the FM
 is not dominant. Therefore, when only FM-dominated LPVs are
 considered, as is done here, the observed period distribution ap-
@@ -748,7 +748,7 @@ Three of the sources without a spectral type lack Gaia pho-
 tometry, so they cannot be classiﬁed with the Gaia-2MASS. Two
 of them (LW5 and LW22 in 47 Tuc) have no match in Gaia
 EDR3, but they have NIR data and are probably O-rich based on
-their position in the J − K s versus Ks color-magnitude diagram.
+their position in the J − K s versus K s color-magnitude diagram.
 The third source is one of the two stars in NGC 1903 from the
 list of Grady et al. (2019), which we identiﬁed with the 2MASS
 source J05171633-6920298. It is likely C-rich according to the
@@ -863,7 +863,7 @@ PA relation can be translated into a period-initial mass relation,
 which we derived using the same approach described above, and
 assuming the form
 
-log(M i /M ) = b 0 + b 1 (P/ P) + b 2 (P/ P)2 .
+log(M i /M ) = b 0 + b 1 (P/ P) + b 2 (P/ P) 2 .
 (B.2)
 
 The resulting best-ﬁt lines are displayed in Fig. B.1, and the co-
@@ -877,7 +877,7 @@ Appendix C: The shape of the period distribution
 
 As an example case, we consider an isochrone of age log(τ/yr) =
 8.3 and initial metallicity Z i = 0.006. Stars on the TP-AGB have
-initial masses Mi3.85 Mover a small range of ∼ 10−3 M.
+initial masses M i 3.85 M over a small range of ∼ 10−3 M .
 The relation between period and initial mass is displayed in
 panel (a) of Fig. C.1, where isochrone portions undergoing
 

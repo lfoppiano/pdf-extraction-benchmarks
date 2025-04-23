@@ -50,7 +50,7 @@ Accepted XXX. Received YYY; in original form ZZZ
 MNRAS 000, 1–15 (2021)
 
 Preprint 4 January 2022
-Compiled using MNRAS L AT EX style ﬁle v3.0
+Compiled using MNRAS L AT E X style ﬁle v3.0
 
 ABSTRACT
 
@@ -303,8 +303,8 @@ aration between the target and the phase calibrator is 2.47 ◦ . The
 data reduction was done following standard e-MERLIN calibra-
 tion procedures 6 with additional ﬂagging of bad visibilities fol-
 lowed by imaging. We found two confusing sources in the ﬁeld,
-at R.A. = 12ℎ 15 𝑚 44 𝑠 .669, Dec. = −12 ◦ 5759. 56 and R.A. =
-12 ℎ 15 𝑚 37 𝑠 .216, Dec. = −13 ◦ 09 33. 44 at 4.1 and 9.4 from the
+at R.A. = 12 ℎ 15 𝑚 44 𝑠 .669, Dec. = −12 ◦ 57 59. 56 and R.A. =
+12 ℎ 15 𝑚 37 𝑠 .216, Dec. = −13 ◦ 09 33.44 at 4.1 and 9.4 from the
 pointing centre, respectively. They had apparent ﬂux densities of 4
 and 1.3 mJy without primary beam correction. We used these for
 self-calibration of the ﬁeld and then subtracted them before ﬁnal
@@ -440,16 +440,16 @@ dio source is oﬀset by 1. 68 from the localisation region of FRB
 FRB 20190714
 
 Compact persistent emission was detected in the 1.51 GHz e-
-MERLIN image at R.A. = 12 ℎ 15 𝑚 55𝑠 .116, Dec. = −13 ◦ 01 14. 48
-at 86 𝜇Jy beam −1 by e-MERLIN. The stochastic position uncer-
+MERLIN image at R.A. = 12 ℎ 15 𝑚 55 𝑠 .116, Dec. = −13 ◦ 01 14. 48
+at 86 𝜇Jy beam−1 by e-MERLIN. The stochastic position uncer-
 tainty is (0.04, 0.15) arcsec and the uncertainty (due to the sepa-
 ration between phase-calibrator and target, and antenna position
 uncertainty) is (0.013, 0.056) arcsec, giving a total astrometric
 uncertainty of (0.04, 0.16) arcsec in R.A. and Dec., respectively.
 The oﬀset from the FRB position is negligible in R.A. and 1.2
 arcsec in Dec. The rms in this region (of full primary beam sen-
-sitivity) is 20 𝜇Jy beam−1, making this a 4.3𝜎rms detection. It is
-∼1.5𝜎rms higher than that of the MeerKAT detection. Although the
+sitivity) is 20 𝜇Jy beam−1 , making this a 4.3𝜎 rms detection. It is
+∼1.5𝜎 rms higher than that of the MeerKAT detection. Although the
 e-MERLIN ﬂux scale nominal uncertainty is ∼5%, in these data it
 is possibly higher due to the low declination of the phase-reference
 source and to the strong RFI which were removed from the data
@@ -724,7 +724,7 @@ Figure 5. XRT summed image of FRB 20171019A region taken during the MWL observat
 Wolf 1561 star is shown in cyan and is labelled. The green box indicates FRB 20171019A 90% localisation region as reported in Kumar et al. (2019).
 
 FRB 20190714A (780 Mpc), an unresolved source with an an-
-gular size of 0. 6 corresponds to a physical extent of2.3 kpc. The
+gular size of 0. 6 corresponds to a physical extent of 2.3 kpc. The
 uGMRT reported the detection of an unresolved radio emission at
 650 MHz with a ﬂux density of 700±100 𝜇Jy (Wharton et al. 2021),
 while the JVLA detected persistent emission with a ﬂux density of
@@ -1077,7 +1077,7 @@ dowskie 4, 00-478 Warsaw, Poland
 28 Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen
 Centre for Astroparticle Physics, Erwin-Rommel-Str. 1, D 91058
 Erlangen, Germany
-29University of Oxford, Department of Physics, Denys Wilkinson
+29 University of Oxford, Department of Physics, Denys Wilkinson
 Building, Keble Road, Oxford OX1 3RH, UK
 30Université Bordeaux, CNRS/IN2P3, Centre d’Études Nucléaires
 de Bordeaux Gradignan, 33175 Gradignan, France

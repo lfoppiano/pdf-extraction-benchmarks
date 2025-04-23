@@ -110,12 +110,12 @@ Property
 Value
 Subhalo ID
 16960
-Number of stellar particles (N ⋆)
+Number of stellar particles (N ⋆ )
 70446
 Number of dark matter particles (N DM )
 78448
-Stellar mass (M ⋆ )
-5.74 × 1010 M ⊙
+Stellar mass (M ⋆)
+5.74 × 10 10 M ⊙
 Dark matter mass (M DM )
 4.91 × 10 11 M ⊙
 Mean mass of stellar particles
@@ -648,19 +648,19 @@ Article number, page 3 of 12
 
 A&A proofs: manuscript no. Populations4
 
-10-3
+10 -3
 
-10-1
+10 -1
 
-101
+10 1
 
-103
+10 3
 
 10
 100
 
 n
-⋆(R) [kpc-2
+⋆ (R) [kpc -2
 
 ]
 
@@ -686,7 +686,7 @@ pop II
 
 Fig. 5. Surface number density proﬁles of the stellar data samples for the simulated galaxy observed along diﬀerent lines of sight (from the left to
 the right). Diﬀerent lines show proﬁles for all available stars (in red), the metal-rich population I (in orange), and the metal-poor population II (in
-blue). Thin vertical lines indicate r0 (see text) and the outer boundary of the spectroscopic data.
+blue). Thin vertical lines indicate r 0 (see text) and the outer boundary of the spectroscopic data.
 
 2.2. Splitting the stars into populations
 
@@ -812,11 +812,11 @@ Article number, page 4 of 12
 
 K. Kowalczyk & E. L. Łokas: Multiple stellar populations in Schwarzschild modeling
 
-10-3
+10 -3
 
-10-2
+10 -2
 
-10-1
+10 -1
 
 10 0
 
@@ -870,7 +870,7 @@ m
 
 (km s -1
 
-)2
+) 2
 
 ]
 
@@ -1213,15 +1213,15 @@ Article number, page 6 of 12
 
 K. Kowalczyk & E. L. Łokas: Multiple stellar populations in Schwarzschild modeling
 
-106
+10 6
 
-107
+10 7
 
-108
+10 8
 
 109
 
-1010
+10 10
 
 10
 100
@@ -1230,9 +1230,9 @@ ALL
 
 Υ(r) [M
 
-⊙/L
+⊙ /L
 
-⊙]
+⊙ ]
 
 r [kpc]
 
@@ -1733,9 +1733,9 @@ Table 2. Properties of the data samples for the Fornax dSph.
 Property
 ALL
 POP I POP II
-Number of stars (Nphot)
+Number of stars (N phot )
 65 797 14 882 49 205
-Number of stars (Nspec)
+Number of stars (N spec )
 3286
 1136
 1151
@@ -1743,11 +1743,11 @@ Stars within 1.8 kpc
 3268
 1134
 1130
-Fitted normalization (N0) [×104]
+Fitted normalization (N0 ) [×10 4 ]
 6.95
 1.81
 5.45
-Sérsic radius (RS) [kpc]
+Sérsic radius (R S ) [kpc]
 0.454
 0.429
 0.420
@@ -1758,11 +1758,11 @@ Sérsic parameter (m)
 
 102
 
-103
+10 3
 
-104
+10 4
 
-105
+10 5
 
 0.2
 0.5
@@ -1771,7 +1771,7 @@ Sérsic parameter (m)
 1
 
 n
-⋆(R) [kpc-2
+⋆ (R) [kpc -2
 
 ]
 
@@ -1784,7 +1784,7 @@ popII
 Fig. 11. Surface number density proﬁles of the photometric data sam-
 ples for the Fornax dSph: all available stars (in red), the metal-rich pop-
 ulation I (in orange), and the metal-poor population II (in blue). Thin
-vertical lines indicate r0 (see text) and the outer boundary of the spec-
+vertical lines indicate r 0 (see text) and the outer boundary of the spec-
 troscopic data.
 
 Sérsic formula (Sérsic 1968). The proﬁles of number density for
@@ -1794,8 +1794,8 @@ tion introduced in previous sections. Thin vertical lines indicate
 the innermost data point for the light proﬁle for all stars and
 the outer boundary of the kinematic sample. The former, set at
 log r = −0.16, is also used as the minimum of the mass-to-light
-ratio proﬁle (r0 in Eq. 5). The ﬁtted parameters of the proﬁles,
-that is the normalization N0, the Sérsic radius RS, and the Sérsic
+ratio proﬁle (r 0 in Eq. 5). The ﬁtted parameters of the proﬁles,
+that is the normalization N 0 , the Sérsic radius R S , and the Sérsic
 parameter m, are included in the second part of Table 2.
 Figure 12 presents the proﬁles of the observables used in the
 Schwarzschild modeling: the fraction of stars and the 2nd, 3rd,
@@ -1807,14 +1807,14 @@ a ∈ [0 : 1.85] with a step ∆a = 0.05 and c ∈ [1.2 : 6] with a
 step ∆c = 0.2. We point out that in Kowalczyk et al. (2019) the
 parameter c was ﬁxed at c = 3 and now we ﬁt it as a free pa-
 rameter. As for the mock data in Section 3.2, diﬀerent values of
-Υ0 were obtained with the transformation of velocity moments
-within the χ2 ﬁtting routine. The values of ∆χ2 for all stars and
+Υ 0 were obtained with the transformation of velocity moments
+within the χ 2 ﬁtting routine. The values of ∆χ 2 for all stars and
 the populations are shown in the two panels of Fig. 13 (left and
 right-hand side, respectively). Due to the dense coverage of the
 grid, we decided to include only the values within 3 σ from the
 ﬁtted minimums (see Section 3.1).
 The proﬁles of the mass-to-light ratio, total density, total
-mass, and velocity anisotropy resulting from the χ2 distributions
+mass, and velocity anisotropy resulting from the χ 2 distributions
 are presented in the consecutive rows of Fig. 14. The anisotropy
 proﬁle for the populations is based on the ﬁt of all stars but using
 
@@ -1863,9 +1863,9 @@ pop II
 1.6
 
 m
-2(R)[(km s-1
+2 (R)[(km s -1
 
-)2
+) 2
 
 ]
 
@@ -2010,7 +2010,7 @@ c
 
 3
 
-
+6
 
 9
 
@@ -2147,19 +2147,19 @@ POPULATIONS
 best model
 K19
 
-104
+10 4
 
-106
+10 6
 
-108
+10 8
 
 0.1
 1
 
 ν
-tot(r) [M
+tot (r) [M
 
-⊙ kpc-3
+⊙ kpc -3
 
 ]
 

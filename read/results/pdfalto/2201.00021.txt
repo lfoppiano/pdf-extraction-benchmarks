@@ -95,12 +95,12 @@ Article number, page 1 of 10
 A&A proofs: manuscript no. mainArxiv
 
 tions (e.g., Mauersberger et al. 1987, 1988; Walsh et al. 2007;
-Henkel et al. 2013; Mei et al. 2020). Except for the NH3 (3,3)
+Henkel et al. 2013; Mei et al. 2020). Except for the NH 3 (3,3)
 masers proposed to be associated with four supernova remnants
 (McEwen et al. 2016), almost all the other ammonia masers are
 detected in high-mass star-forming regions (HMSFRs). How-
 ever, while many HMSFRs host water (H2O), hydroxyl (OH),
-or methanol (CH3 OH) masers, ammonia masers are quite rare
+or methanol (CH 3 OH) masers, ammonia masers are quite rare
 in these sources, and the role that the environment of a young
 high-mass star plays in their excitation remains unclear. There-
 fore, dedicated searches for ammonia masers in HMSFRs are
@@ -110,11 +110,11 @@ constraints on the pumping mechanism of ammonia masers.
 So far, a total of 32 NH 3 inversion transitions (∆K = 0
 and ∆J = 0) have been identiﬁed as masers. Among these, and
 despite arising from energy levels as high as 1090 K above
-the ground state, the NH3 (9,6) maser stands out as being the
+the ground state, the NH 3 (9,6) maser stands out as being the
 strongest and most variable one in W51-IRS2 (e.g., Henkel et al.
 2013). Maser emission in this line has only been detected in ﬁve
 HMSFRs, W51, NGC7538, W49, DR21 (OH) (Madden et al.
-1986), and Sgr B2(N) (Mei et al. 2020). The NH3 (3,3) masers
+1986), and Sgr B2(N) (Mei et al. 2020). The NH 3 (3,3) masers
 are thought to be collisionally excited (e.g., Flower et al. 1990;
 Mangum & Wootten 1994); in contrast, the pumping mecha-
 nism of NH3 (9,6) masers is less well constrained (Madden et al.
@@ -229,15 +229,15 @@ Article number, page 2 of 10
 
 Y. T. Yan (闫耀庭) et al.: Discovery of ammonia (9,6) masers in two high-mass star-forming regions
 
-P.A. = 58◦.79 and 1. 33 × 1. 06 at P.A. = 5◦.36 toward Cep A
+P.A. = 58 ◦ .79 and 1 . 33 × 1 . 06 at P.A. = 5 ◦ .36 toward Cep A
 and G34.26+0.15, respectively. For the 1.36 cm (20–24 GHz)
-continuum emission, the synthesized beams are 1. 08 × 0. 67 at
-P.A. = 60◦.64 and 0. 95 × 0. 71 at P.A. = 5◦.91 toward Cep A and
+continuum emission, the synthesized beams are 1 . 08 × 0 . 67 at
+P.A. = 60 ◦ .64 and 0. 95 × 0 . 71 at P.A. = 5 ◦ .91 toward Cep A and
 G34.26+0.15. The typical absolute astrometric accuracy of the
 JVLA is ∼10% of the synthesized beam 5 . The ﬂux density scale
 calibration accuracy is estimated to be within 15%.
 
-Fig. 1. Spectra from NH3 (9,6) transition lines. Left: Top to bottom:
+Fig. 1. Spectra from NH 3 (9,6) transition lines. Left: Top to bottom:
 Time sequence of NH3 (9,6) proﬁles observed toward Cep A with the
 Eﬀelsberg 100-meter telescope (after subtracting a ﬁrst-order polyno-
 mial baseline). A JVLA spectrum is interspersed. The systemic veloc-
@@ -322,38 +322,38 @@ Article number, page 3 of 10
 A&A proofs: manuscript no. mainArxiv
 
 Fig. 3. Cepheus A. White contours mark the 1.36 cm JVLA continuum map of Cep A; levels are −5, 5, 10, 20, 30, 40, 50, 70, 90,
-and 110 × 0.125 mJy beam−1. The background image is the Spitzer 4.5 µm emission, taken from the Galactic Legacy Infrared Mid-Plane
-Survey Extraordinaire (GLIMPSE; Benjamin et al. 2003; Churchwell et al. 2009). The reference position is αJ2000 = 22h56m17s.972, and
-δJ2000 = 62◦0149. 587, the peak position of the continuum map, is marked with a black cross. Slightly to the west of the cross is the black
-ellipse denoting the position of the NH3 (9,6) emission with a purple star at its center. OH (Bartkiewicz et al. 2005), H2O (Sobolev et al. 2018),
-and CH3OH (Sanna et al. 2017) masers are presented as diamonds, circles, and squares, respectively. The color bar on the right-hand side indicates
+and 110 × 0.125 mJy beam −1 . The background image is the Spitzer 4.5 µm emission, taken from the Galactic Legacy Infrared Mid-Plane
+Survey Extraordinaire (GLIMPSE; Benjamin et al. 2003; Churchwell et al. 2009). The reference position is α J2000 = 22 h 56 m 17 s .972, and
+δ J2000 = 62 ◦ 01 49 . 587, the peak position of the continuum map, is marked with a black cross. Slightly to the west of the cross is the black
+ellipse denoting the position of the NH3 (9,6) emission with a purple star at its center. OH (Bartkiewicz et al. 2005), H 2 O (Sobolev et al. 2018),
+and CH 3 OH (Sanna et al. 2017) masers are presented as diamonds, circles, and squares, respectively. The color bar on the right-hand side indicates
 the LSR velocity range of the maser spots.
 
 Fig. 4. 1.36 cm JVLA continuum map of G34.26+0.15 presented as white contours with levels of −5, 5, 10, 20, 30, 40, 50, 70, 90, 110, 130,
-150, 180, and 200 × 5.0 mJy beam−1. The background image is the Spitzer 4.5 µm emission, taken from GLIMPSE. The reference position is
-αJ2000 = 18h53m18s.560, and δJ2000 = 01◦1458. 201, the peak position, is marked by a black cross. The black ellipses show the positions of NH3
-(9,6) emissions with stars at their center (i.e., M1, M2, and M3). OH (Zheng et al. 2000), H2O (Imai et al. 2011), and CH3OH (Bartkiewicz et al.
-2016) masers are presented as diamonds, circles, and squares, respectively. The color bar indicates the velocity range (VLSR) of maser spots.
+150, 180, and 200 × 5.0 mJy beam −1. The background image is the Spitzer 4.5 µm emission, taken from GLIMPSE. The reference position is
+αJ2000 = 18 h 53m18 s .560, and δ J2000 = 01◦ 1458 . 201, the peak position, is marked by a black cross. The black ellipses show the positions of NH 3
+(9,6) emissions with stars at their center (i.e., M1, M2, and M3). OH (Zheng et al. 2000), H2 O (Imai et al. 2011), and CH 3OH (Bartkiewicz et al.
+2016) masers are presented as diamonds, circles, and squares, respectively. The color bar indicates the velocity range (V LSR ) of maser spots.
 
 In view of the constancy of the ﬂux densities obtained at Ef-
 felsberg and the similar JVLA ﬂux density, measured in 2021
 July, there is no missing interferometric ﬂux density in the JVLA
 data.
 
-3.3. NH3 (9,6) emission in G34.26+0.15
+3.3. NH 3 (9,6) emission in G34.26+0.15
 
 The NH3 (9,6) emission was ﬁrst detected toward G34.26+0.15
 in 2020 January with the Eﬀelsberg 100-meter telescope. Higher
 
-velocity resolution data from 2021 August show the NH3 (9,6)
+velocity resolution data from 2021 August show the NH 3 (9,6)
 emission to be composed of two diﬀerent components. The spec-
 tra of weak components on a smaller ﬂux density scale are pre-
 sented in Fig. 2.
 
-Three diﬀerent locations showing NH3 (9,6) emission are
-found toward G34.26+0.15 (Fig. 4). The deconvolved NH3 (9,6)
-component sizes are (1. 42 ± 0. 43) × (0. 54 ± 0. 62) at P.A. = 97◦
-(M1), (0. 42 ± 0. 27) × (0. 15 ± 0. 27) at P.A. = 150◦ (M2), and
+Three diﬀerent locations showing NH 3 (9,6) emission are
+found toward G34.26+0.15 (Fig. 4). The deconvolved NH 3 (9,6)
+component sizes are (1 . 42 ± 0 . 43) × (0. 54 ± 0 . 62) at P.A. = 97◦
+(M1), (0 . 42 ± 0. 27) × (0. 15 ± 0. 27) at P.A. = 150◦ (M2), and
 
 Article number, page 4 of 10
 
@@ -496,13 +496,13 @@ Article number, page 5 of 10
 
 A&A proofs: manuscript no. mainArxiv
 
-and the NH3 (3,3) emission surrounding continuum source B as
-well as the head of C (1. 4×1. 2 resolution; Heaton et al. 1989).
+and the NH 3 (3,3) emission surrounding continuum source B as
+well as the head of C (1 . 4×1 . 2 resolution; Heaton et al. 1989).
 However, we did not ﬁnd this redshifted component in our
 JVLA observations. Therefore, its position within G34.26+0.15
 cannot be determined. The blueshifted (9,6) masers with a
-velocity range of 53.8–56.8 km s−1 (M1, M2, and M3) show
-velocities compatible with those of the NH3 (3,3) emission at
+velocity range of 53.8–56.8 km s −1 (M1, M2, and M3) show
+velocities compatible with those of the NH 3 (3,3) emission at
 the proper positions (Heaton et al. 1989), which might be a
 suitable environment for maser species.
 
@@ -511,7 +511,7 @@ suitable environment for maser species.
 To characterize the environment of NH 3 (9,6) masers, we can
 compare their positions with respect to those of other maser
 species (i.e., OH, H 2 O, and CH 3 OH). Toward Cep A HW2,
-many CH 3 OH (e.g., Menten 1991; Sugiyama et al. 2008; Sanna
+many CH3 OH (e.g., Menten 1991; Sugiyama et al. 2008; Sanna
 et al. 2017) and H 2 O maser spots (e.g., Torrelles et al. 1998,
 2011; Sobolev et al. 2018) are detected and are associated with
 its disk. Sobolev et al. (2018) also found that most of the H 2 O
@@ -521,7 +521,7 @@ maser features close to the H ii regions are also seen in HW2
 three kinds of masers in Cep A have a large velocity range of
 −25 km s −1 ≤ V LSR ≤ −2 km s −1 and are widespread around
 HW2 and HW3, while NH 3 (9,6) emission is only detected at
-−0.9 km s −1 ≤ V LSR ≤2.9 km s −1 toward a sub-arcsecond-
+−0.9 km s −1 ≤ VLSR ≤2.9 km s −1 toward a sub-arcsecond-
 sized region to the west of the peak continuum position of HW2
 (see Fig. 3). This suggests that the NH 3 (9,6) maser in Cep A
 is unique and not related to maser spots seen in other molecular
@@ -667,7 +667,7 @@ Cheung, A. C., Rank, D. M., Townes, C. H., Thornton, D. D., & Welch, W. J.
 Churchwell, E., Babler, B. L., Meade, M. R., et al. 2009, PASP, 121, 213
 Cohen, R. J. & Brebner, G. C. 1985, MNRAS, 216, 51P
 Comito, C., Schilke, P., Endesfelder, U., Jiménez-Serra, I., & Martín-Pintado, J.
-A&A, 469, 207
+2007, A&A, 469, 207
 Curiel, S., Ho, P. T. P., Patel, N. A., et al. 2006, ApJ, 638, 878
 Danby, G., Flower, D. R., Valiron, P., Schilke, P., & Walmsley, C. M. 1988,
 MNRAS, 235, 229
@@ -780,12 +780,12 @@ Epoch
 Channel
 S ν
 rms
-S νdv
+S ν dv
 V LSR
 ∆V 1/2
 size
 spacing
-(km s−1 ) (Jy) (mJy) (Jy km s −1 )
+(km s −1 ) (Jy) (mJy) (Jy km s −1 )
 (km s −1 )
 Cep A
 Eﬀelsberg
@@ -970,8 +970,8 @@ M3 18 53 18.667 ± 0.005 +01 14 55.348 ± 0.066
 73.7
 186.3 55.78 ± 0.04 0.79 ± 0.08
 
-Fig. A.1. Cepheus A. The grey shaded areas mark the 1.36 cm JVLA continuum map of Cep A. The reference position is α J2000 = 22h56m 17s.972,
-and δJ2000 = 62◦0149. 587, the peak position of the continuum map, is marked by a red cross. Slightly to the west of the cross is the white ellipse
+Fig. A.1. Cepheus A. The grey shaded areas mark the 1.36 cm JVLA continuum map of Cep A. The reference position is α J2000 = 22 h 56 m 17 s .972,
+and δ J2000 = 62 ◦ 01 49 . 587, the peak position of the continuum map, is marked by a red cross. Slightly to the west of the cross is the white ellipse
 denoting the position of the NH3 (9,6) emission with a purple star at its center. The red contours show the NOrthern Extended Millimeter Array
 (NOEMA) 1.37 mm continuum, taken from Beuther et al. (2018). Contour levels are -5, 5, 10, 20, 40, 80, 100, 150, and 200 × 2.43 mJy beam−1.
 OH (Bartkiewicz et al. 2005), H2O (Sobolev et al. 2018), and CH3OH (Sanna et al. 2017) masers are presented as diamonds, circles, and squares,
@@ -982,11 +982,11 @@ Article number, page 9 of 10
 
 A&A proofs: manuscript no. mainArxiv
 
-Fig. A.2. 1.36 cm JVLA continuum map of G34.26+0.15 presented as gray shaded areas. The reference position is α J2000 = 18 h53 m 18 s .560, and
+Fig. A.2. 1.36 cm JVLA continuum map of G34.26+0.15 presented as gray shaded areas. The reference position is α J2000 = 18 h 53 m 18 s .560, and
 δ J2000 = 01 ◦ 14 58 . 201, the peak position, is marked by a red cross. The red ellipses show the positions of NH 3 (9,6) emission with stars at their
 center (i.e., M1, M2, and M3). The blue contours show the Berkeley-Illinois-Maryland Association (BIMA) array 2.8 mm continuum, taken from
-Mookerjea et al. (2007). Contour levels are -3, 3, 10, 20, 30, 40, 50, 70, 90, 100, 120, and 140 × 20 mJy beam−1. OH (Zheng et al. 2000), H2O (Imai
-et al. 2011), and CH3OH (Bartkiewicz et al. 2016) masers are presented as diamonds, circles, and squares, respectively. The color bar indicates
+Mookerjea et al. (2007). Contour levels are -3, 3, 10, 20, 30, 40, 50, 70, 90, 100, 120, and 140 × 20 mJy beam −1 . OH (Zheng et al. 2000), H 2 O (Imai
+et al. 2011), and CH 3 OH (Bartkiewicz et al. 2016) masers are presented as diamonds, circles, and squares, respectively. The color bar indicates
 the velocity range (VLSR) of maser spots.
 
 Article number, page 10 of 10
