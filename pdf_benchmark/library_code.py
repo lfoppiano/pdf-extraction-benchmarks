@@ -2,6 +2,7 @@ import os
 import subprocess
 import tempfile
 from io import BytesIO
+from typing import BinaryIO
 
 import fitz as PyMuPDF
 import pdfminer
@@ -11,6 +12,7 @@ import pypdfium2 as pdfium
 from borb.pdf.pdf import PDF
 from borb.toolkit.text.simple_text_extraction import SimpleTextExtraction
 from pdfminer.high_level import extract_pages
+from markitdown import MarkItDown
 from requests import ReadTimeout
 
 from .text_extraction_post_processing import PDFIUM_ZERO_WIDTH_NO_BREAK_SPACE
@@ -182,7 +184,7 @@ def borb_get_text(data: bytes) -> str:
     return text
 
 
-def pdfplubmer_get_text(data: bytes) -> str:
+def pdfplumber_get_text(data: bytes) -> str:
     text = ""
     with pdfplumber.open(BytesIO(data)) as pdf:
         for page in pdf.pages:
@@ -254,31 +256,31 @@ def pdfalto_get_images(data: bytes) -> list[tuple[str, bytes]]:
     os.close(new_file)
     os.remove(filename)
     return images
-#
-# def pdfalto_v05_get_text(data: bytes) -> str:
-#     new_file, filename = tempfile.mkstemp()
-#     with open(filename, "wb") as fp:
-#         fp.write(data)
-#     pdf_to_text_path = os.environ["PDFALTO_EXECUTABLE_v05"] if "PDFALTO_EXECUTABLE_v05" in os.environ else None
-#     if not (pdf_to_text_path or os.path.exists(pdf_to_text_path)):
-#         print("To evaluate pdfalto, you need to create a .env file and place it at the root directory")
-#         pdf_to_text_path = 'pdfalto'
-#     args = [pdf_to_text_path, "-noImageInline", "-fullFontName", "-noImage", "-readingOrder", filename, "-"]
-#
-#     res = subprocess.run(args, capture_output=True)
-#     output_xml = res.stdout.decode("utf-8")
-#     new_file_xml, filename_xml = tempfile.mkstemp()
-#     with open(filename_xml, "w") as fp:
-#         fp.write(output_xml)
-#     xml_to_txt_path = "/usr/bin/xsltproc"
-#     args = [xml_to_txt_path, "resources/pdfalto/alto2txt.xsl", filename_xml]
-#     res = subprocess.run(args, capture_output=True)
-#     output = res.stdout.decode("utf-8")
-#     os.close(new_file)
-#     os.close(new_file_xml)
-#     os.remove(filename)
-#     os.remove(filename_xml)
-#     return output
+
+def pdfalto2_get_text(data: bytes) -> str:
+    new_file, filename = tempfile.mkstemp()
+    with open(filename, "wb") as fp:
+        fp.write(data)
+    pdf_to_text_path = os.environ["PDFALTO_EXECUTABLE2"] if "PDFALTO_EXECUTABLE2" in os.environ else None
+    if not (pdf_to_text_path or os.path.exists(pdf_to_text_path)):
+        print("To evaluate pdfalto, you need to create a .env file and place it at the root directory")
+        pdf_to_text_path = 'pdfalto'
+    args = [pdf_to_text_path, "-noImageInline", "-fullFontName", "-noImage", "-readingOrder", filename, "-"]
+
+    res = subprocess.run(args, capture_output=True)
+    output_xml = res.stdout.decode("utf-8")
+    new_file_xml, filename_xml = tempfile.mkstemp()
+    with open(filename_xml, "w") as fp:
+        fp.write(output_xml)
+    xml_to_txt_path = "/usr/bin/xsltproc"
+    args = [xml_to_txt_path, "resources/pdfalto/alto2txt.xsl", filename_xml]
+    res = subprocess.run(args, capture_output=True)
+    output = res.stdout.decode("utf-8")
+    os.close(new_file)
+    os.close(new_file_xml)
+    os.remove(filename)
+    os.remove(filename_xml)
+    return output
 
 
 def pdfrw_watermarking(watermark_data: bytes, data: bytes) -> bytes:
@@ -306,3 +308,10 @@ def tika_get_text(data: bytes) -> str:
     except ReadTimeout as ex:
         print("Tika timeout:", ex)
         return "[[[Tika text extraction failed!]]]"
+
+def markitdown_get_text(data: bytes) -> str:
+
+    pdf = MarkItDown(enable_plugins=False).convert_stream(BytesIO(data))
+
+
+    return pdf.text_content
